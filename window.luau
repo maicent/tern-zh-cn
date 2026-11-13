@@ -68,7 +68,8 @@ local commands = {
 	{ id = "decrease_font_size", title = "减小字号", group = "外观" },
 	{ id = "reset_font_size", title = "重置字号", group = "外观" },
 	{ id = "next_layout", title = "下一个布局", group = "外观" },
-	{ id = "status_bar", title = "显示状态栏", group = "外观" },
+	-- 0.9.17 起状态栏改叫控件栏，status_bar 命令已移除，改用它的继任者。
+	{ id = "edit_widgets", title = "编辑控件栏…", group = "外观" },
 
 	-- 设置
 	{ id = "preferences", title = "设置…", group = "设置" },
