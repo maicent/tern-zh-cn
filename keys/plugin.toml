@@ -1,6 +1,6 @@
 schema = 1
 id = "zh-cn-keys"
 name = "中文汉化 · 键盘页"
-version = "0.1.0"
+version = "0.2.0"
 window = "window.luau"
 styles = ["keyboard.css"]
