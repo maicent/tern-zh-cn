@@ -37,6 +37,23 @@ tern plugin install github.com/maicent/tern-zh-cn/keys
 tern plugin reload zh-cn-keys
 ```
 
+**从本地目录安装会出问题。** `tern plugin install` 处理本地目录时会复制整个目录树，仓库里的 `keys/` 会跟着进到 `plugins/zh-cn/keys/`，和独立的 `zh-cn-keys` 撞 id。Tern 遇到重复 id 用先扫到的那份，也就是嵌套副本，于是改动永远不生效、版本号也停在旧的那份。
+
+```sh
+# 会连 keys/ 一起复制进去 —— 别这么装本地目录
+tern plugin install /path/to/tern-zh-cn
+
+# 从 git URL 装主包不会带 keys/（只复制包需要的文件）
+tern plugin install github.com/maicent/tern-zh-cn
+tern plugin install github.com/maicent/tern-zh-cn/keys
+```
+
+从本地目录装过之后，检查有没有嵌套副本：
+
+```sh
+ls ~/AppData/Roaming/Tern/plugins/zh-cn/keys    # 不该存在；有就删掉再 reload
+```
+
 ## 不能翻译的部分（原理限制）
 
 - **内置命令的英文原行**无法改名或隐藏（palette 行没有可选择的属性，且搜索时列表会重排）。但中文行排在同一列表里，搜中文即可。
