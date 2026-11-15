@@ -1,0 +1,1657 @@
+/* 页 1: 11 节 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(11)):not(:has(> .pf-sec:nth-last-of-type(12))){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"Shell";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"Shell";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"本机新建块以何种登录 shell 运行。留空则运行你的登录 shell（powershell.exe）。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"标签页与分屏";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"新建标签页和分屏时打开";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"Ctrl+Shift+T、Ctrl+Shift+Enter 和 Ctrl+Shift+O 打开什么。Ctrl+Shift+` 始终打开 Shell 块，Ctrl+Shift+A 打开智能体块。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"新标签页起始位置";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"分屏始终从被分割的块所在目录启动。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"起始文件夹";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"本机新窗口和会话的起始位置，以及无可继承目录的新标签页的起始位置；远程主机的标签页在其自身目录启动。留空或文件夹已不存在时，从主目录启动。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"选区";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"选中即复制";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"选中结束后自动复制到剪贴板。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"链接";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"打开链接方式";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"终端输出与程序界面中的链接。Ctrl+单击始终会打开；设为「单击」时，拖动仍可选中，且使用鼠标的程序（如 vim、tmux）保持普通点击行为。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"网页链接打开位置";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"按住 Alt 单击可打开另一个。文件链接始终在 Tern 中打开。";font-size:12px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"文件";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"显示隐藏文件";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"在「文件」面板中显示点文件（面板内 Ctrl+Shift+.）。.git 与 .DS_Store 永不显示。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"显示被忽略文件";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"git 忽略的内容以淡色显示。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"搜索被忽略文件";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"筛选（「文件」中 Ctrl+Shift+F）也会搜索 node_modules 等被忽略的文件夹。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"紧凑文件夹";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"只含一个子文件夹的文件夹合并为一行显示：crates / tern / src。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"定位当前文件";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"「文件」面板跟随你正在使用的编辑器块，被忽略的文件夹内例外。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"点击打开";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"单击文件会在块上方显示它，直到你点击别处（否则用双击或空格）。";font-size:12px}
+> .pf-sec:nth-of-type(6) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(6) > .pf-sec-t::before{content:"保存";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"自动保存";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"文件块无需 Ctrl+S 即自动保存。未保存的文本在退出后仍然保留，磁盘上被改动的文件也绝不会被覆盖。";font-size:12px}
+> .pf-sec:nth-of-type(7) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(7) > .pf-sec-t::before{content:"系统";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"资源管理器集成";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"在文件夹上显示「在 Tern 中打开」，并为文本、代码、图片、数据库和笔记本注册「打开方式」中的 Tern。关闭后移除这些项。";font-size:12px}
+> .pf-sec:nth-of-type(8) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(8) > .pf-sec-t::before{content:"更新";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"Tern 0.9.21 (bde0861)";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"新版本来自 build.stencil.so。选择「重启以更新」会立即安装。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"自动更新";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"每小时检查一次，在后台下载新版本，退出时安装。关闭后，只有点击「检查更新」时才检查，下载的版本也只在你选择「重启以更新」时安装。";font-size:12px}
+> .pf-sec:nth-of-type(9) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(9) > .pf-sec-t::before{content:"omp";font-size:12px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"由 Tern 管理";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"Tern 从 build.stencil.so 安装 omp，保持更新，将其置于终端 PATH 首位，并链接到你的 shell 能找到的位置。";font-size:12px}
+> .pf-sec:nth-of-type(10) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(10) > .pf-sec-t::before{content:"ovnfs";font-size:12px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"由 Tern 管理";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"Tern 从 build.stencil.so 安装 ovnfs，保持更新，将其置于终端 PATH 首位，并链接到你的 shell 能找到的位置。运行中的 ovnfs 守护进程会在重新加载时切换到新版本。";font-size:12px}
+> .pf-sec:nth-of-type(11) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(11) > .pf-sec-t::before{content:"ABKit";font-size:12px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"由 Tern 管理";font-size:13px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"Tern 从 build.stencil.so 安装 ABKit（omp 浏览器与 Tern 网页视图的引擎），保持更新并链接到 ~/.o2\\lib\\abkit，供两者查找。";font-size:12px}
+}
+/* 页 2: 8 节 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(8)):not(:has(> .pf-sec:nth-last-of-type(9))){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"默认";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"智能体";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"智能体块（Ctrl+Shift+A）运行什么。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"智能体打开位置";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"新智能体块放置的位置。「替换」在标签页只有一个空闲于提示符的 shell 块时取代它，否则分屏。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"通知";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"需要你处理";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"Tern 在后台时，智能体等待你处理（被阻塞或提问）时发送系统通知。点击通知会跳转到该智能体的块。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"回合结束";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"Tern 在后台时，智能体完成或失败时发送系统通知。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"ACP 对话";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"以 ACP 对话打开智能体命令";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"在新的 Tern shell 中输入 claude、codex 或 copilot，会通过 ACP 在 Tern 对话中打开。`command claude` 运行其自带界面。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"显示 Claude 的思考";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"Claude 的对话会在工作时显示其推理摘要。环境中设置 MAX_THINKING_TOKENS=0 可关闭思考。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"Claude Code";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"命令行工具";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"位于 C:\\Users\\HP\\AppData\\Roaming\\npm\\claude.cmd · 适配器在首次使用时安装";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"以 ACP 对话打开 Claude Code";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"在新的 Tern shell 中输入 claude 会打开 Tern 的对话。关闭则运行 Claude Code 自己的界面。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"使用 Claude Code 自带的文件与终端工具";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"在 ACP 对话中，Claude Code 自行读写文件并执行命令，而非通过 Tern。";font-size:12px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"Codex";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"命令行工具";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"位于 C:\\Users\\HP\\AppData\\Roaming\\npm\\codex.cmd · 适配器在首次使用时安装";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"以 ACP 对话打开 Codex";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"在新的 Tern shell 中输入 codex 会打开 Tern 的对话。关闭则运行 Codex 自己的界面。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"使用 Codex 自带的文件与终端工具";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"在 ACP 对话中，Codex 自行读写文件并执行命令，而非通过 Tern。";font-size:12px}
+> .pf-sec:nth-of-type(6) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(6) > .pf-sec-t::before{content:"GitHub Copilot";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"命令行工具";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"位于 D:\\software\\Microsoft VS Code\\bin\\copilot-shim\\copilot.exe";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"以 ACP 对话打开 GitHub Copilot";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"在新的 Tern shell 中输入 copilot 会打开 Tern 的对话。关闭则运行 GitHub Copilot 自己的界面。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"使用 GitHub Copilot 自带的文件与终端工具";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"在 ACP 对话中，GitHub Copilot 自行读写文件并执行命令，而非通过 Tern。";font-size:12px}
+> .pf-sec:nth-of-type(7) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(7) > .pf-sec-t::before{content:"自定义智能体";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"智能体";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"通过 stdio 使用 ACP 协议的命令。环境变量在 settings.json 中设置。";font-size:12px}
+> .pf-sec:nth-of-type(8) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(8) > .pf-sec-t::before{content:"MCP 服务器";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"服务器";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"智能体在 Tern 对话中可用的工具。环境变量和请求头在 settings.json 中设置；${VAR} 读取环境变量。";font-size:12px}
+}
+/* 页 3: 6 节 / 3 子 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(6)):not(:has(> .pf-sec:nth-last-of-type(7))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(3)){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"主题";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"跟随 omp";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"omp 的 config.yml 所选择的主题：深色时为 dark-terminal，浅色时为 light。取自 omp 的默认配置（~/.omp\\agent）。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"外观";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"外观";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"浅色、深色，或跟随系统。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"字体";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"终端网格的字体族，可列多个按优先顺序；留空使用 Ioskeley Mono Term。右侧为网格及编辑器、差异和对话中代码的字号（Ctrl+Shift+= 和 Ctrl+Shift+− 可调整）。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"粗体字型";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"粗体的字体族，可列多个按优先顺序；留空使用「字体」中的 Ioskeley Mono Term Medium。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"斜体字型";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"斜体的字体族，可列多个按优先顺序；留空使用「字体」中的 Ioskeley Mono Term。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"粗斜体字型";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"粗斜体的字体族，可列多个按优先顺序；留空使用「字体」中的 Ioskeley Mono Term Medium。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"字重";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"终端网格的文字字重；粗体在此基础上加粗 300，最低为 700。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"代码字体";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"网格之外等宽文本的字体：编辑器、块和标签。留空时编辑器跟随「字体」，其余使用内置 Ioskeley Mono Term。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"界面字体";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"界面字体族，可列多个按优先顺序；留空使用内置 Geist。右侧为窗口其余部分的字号：标签、菜单、块和设置。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"行高";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"叠加到每个终端与代码行高：整数像素（2、-1）或百分比（20%），同 Ghostty 的 adjust-cell-height。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(10) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(10) > .pf-lbl > .t::before{content:"字符宽度";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(10) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(10) > .pf-lbl > .h::before{content:"叠加到每个终端与代码列宽：整数像素（1、-1）或百分比（-7%），同 Ghostty 的 adjust-cell-width。字母大小不变。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(11) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(11) > .pf-lbl > .t::before{content:"内边距";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(11) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(11) > .pf-lbl > .h::before{content:"终端文字与块边缘的留白：先水平，后垂直，同 Ghostty 的 window-padding-x 和 -y。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(12) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(12) > .pf-lbl > .t::before{content:"文字对齐像素";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(12) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(12) > .pf-lbl > .h::before{content:"所有字母对齐到整像素，与多数终端一致：文字更锐利清晰，但间距可能有半像素的不均。关闭则按四分之一像素定位。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(13) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(13) > .pf-lbl > .t::before{content:"对比度校正";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(13) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(13) > .pf-lbl > .h::before{content:"将背景上过暗的程序文字提亮到 WCAG AA 标准。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(14) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(14) > .pf-lbl > .t::before{content:"减少动态效果";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(14) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(14) > .pf-lbl > .h::before{content:"停止动画、努力度的火焰效果和运行脉冲；程序自身的动效也会停止。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"光标";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"形状";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"「自动」各处保持默认：终端中为方块，编辑器中为竖线，并允许程序更改：shell 在提示符处请求竖线，Vim 随模式切换。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"程序可更改";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"shell 和 Vim 等程序也可切换上面选定的形状，程序释放后恢复原形状。关闭则始终保持。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"光标闪烁";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"光标闪烁（终端中由程序决定），10 秒无输入后静止。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"平滑闪烁";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"光标闪烁时淡出再淡入。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"滑行";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"光标滑向目标位置而非直接跳过去的时长。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"拖尾";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"光标跳转时留下的拖尾：Neovide 的拉伸扭曲、kitty 的彗星、烈焰、火花尘，或渐隐回声。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"脉冲";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"程序改变光标形状（如 Vim 切换模式时由方块变为竖线）时触发的效果（「形状」设为自动，或允许程序更改时）。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"终端中";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"终端块使用此光标。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"对话输入框中";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"omp 输入框也使用该字体。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .t::before{content:"编辑器中";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .h::before{content:"编辑代码、文本和 Markdown 时，文件块使用该字体。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .t::before{content:"指针";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .h::before{content:"终端上的鼠标指针。单击可打开的链接仍显示手形。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"界面风格";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"布局";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"终端外框的样式强度（Ctrl+Shift+L 循环切换）。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"材质";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"窗口表面的材质。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"不透明度";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"终端背景在毛玻璃下遮挡桌面的程度。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"模糊";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"「清透」是否对窗口后的桌面做模糊。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"密度";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"块彼此紧贴，或各自成卡片。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"标签页";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"沿顶部，或沿侧边与所有会话的标签页并列（Ctrl+Shift+\\）。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"隐藏侧边标签";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"侧边标签收进窗口边缘的窄条，指针停留时滑出（Ctrl+Alt+Shift+\\ 显示或隐藏）。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"在侧边标签上滚动切换标签";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"鼠标滚轮或触控板在侧边标签上滚动时，切换上一个/下一个标签页而非滚动列表；触控板一次滑动切换一个。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"跨会话编号侧边标签";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"标签号及其快捷键把所有会话的侧边标签页视为一个列表统一编号，因此同一编号始终指向同一标签页；关闭则只统计当前会话的标签页。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .t::before{content:"系统标题栏";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .h::before{content:"在标签栏上方使用系统标题栏和窗口控件，替代 Tern 自带的。部分 Linux 桌面（GNOME）不提供。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .t::before{content:"程序图标";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .h::before{content:"在标签页、块行和停靠卡片上以图标替换程序自带图标：按程序名（codex、vim、shell）或其命令（nvim、npm）写 程序=图标 对（codex=provider-openai，nvim=sparkle）。插件的图标优先。";font-size:12px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"块";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"块标题栏";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"块的标题及其分屏、浮动、缩放和关闭按钮；「从不」，标签分屏后显示，或每个块都显示。若组件栏未启用「目录」组件，标题栏也会显示目录名和分支。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"淡化未聚焦的块";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"标签页分屏时，未聚焦的块会被淡化，让聚焦的块更突出。关闭后所有块保持原对比度。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"组件";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"窗口底部的组件：聚焦块的目录与分支、最后一条命令、本机监测、omp 的 AI 用量，以及插件组件。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"组件栏样式";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"组件栏如何分隔组件：均匀间距、柔和胶囊、细线边框，或组件之间的细线。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"tmux 状态行";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"将块中运行的 tmux 状态行绘制为 Tern 原生样式：会话及其窗口以块标题栏的外观呈现，点击即可切换窗口。";font-size:12px}
+> .pf-sec:nth-of-type(6) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(6) > .pf-sec-t::before{content:"程序";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"对话样式";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"omp 对话的呈现方式：Reader 为居中单栏，Spine 为步骤时间线，Console 为 omp 终端原生外观。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"书脊宽度";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"Spine 的栏宽：标准保持居中窄栏，宽为更宽的居中栏，全宽如 Console 般铺满块。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"omp 设置";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"omp 的 /settings 如何打开：在其块上方开窗、作为 Tern 自己的设置面板，或在对话旁开一张表。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"折叠工具调用";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"答案出现后，连续的调用与思考折叠为一行「已工作 · 已读 ×2 · 1 次思考」，适用于所有对话样式。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"展开思考";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"omp 的思考内容完整展开并与答案并列，不显示折叠用的「思考」行。进行中的思考保留转圈与计时。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"上下文行";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"omp 输入框顶部的进度条，随对话占用上下文窗口而填充；点击可查看构成。关闭则不显示。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"保持输入框打开";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"切换到其他块时，omp 输入框保持完整展开。关闭则折叠为一行（会话名、未发送草稿和用量），空间让给对话。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"输入框";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"omp 输入框如何显示草稿。「Markdown」按最终阅读效果排版（如 Notion）：粗体、代码、链接、标题、列表和引用，标记在光标到达前隐藏。「纯文本」原样显示每个字符。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"Markdown 标题";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"「标注」保持标题与原文字同大，加粗并带淡色 # 标记，与 omp 终端视图一致。「自动」跟随对话样式：Reader 用「分级」，Spine 和 Console 用「标注」。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(10) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(10) > .pf-lbl > .t::before{content:"代码自动换行";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(10) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(10) > .pf-lbl > .h::before{content:"代码块与回复中代码的长行按对话宽度换行。关闭则保持单行，块内横向滚动。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(11) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(11) > .pf-lbl > .t::before{content:"编辑";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(11) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(11) > .pf-lbl > .h::before{content:"原生界面如何显示差异。「并排」在块足够宽时将新旧内容左右并列。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(12) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(12) > .pf-lbl > .t::before{content:"标签宽度";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(12) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(12) > .pf-lbl > .h::before{content:"代码与差异中每个制表符的列宽。";font-size:12px}
+}
+/* 页 4: 6 节 / 5 子 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(6)):not(:has(> .pf-sec:nth-last-of-type(7))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(5)){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"滚动";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"平滑滚动";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"终端、文件、列表和画布中的滚轮滚动带缓动。关闭后滚动立即生效，终端按整行滚动。遵循「减少动态效果」；触控板直接跟手，处理鼠标的程序保持自己的滚动。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"弹性回弹";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"在终端、文件、列表和画布滚动越过边缘时拉伸回弹。关闭则到边缘即停。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"滚动条";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"终端何时显示可拖动滚动条。「自动」在滚动时或指针靠近右缘时显示。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"滚动速度";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"鼠标滚轮与触控板在终端、文件、列表和画布中的滚动距离，相对系统速度。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"回滚缓冲区";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"每个终端保留的行数，在会话守护进程和本窗口内存中压缩存储；调小会立即释放最旧的部分，「清屏」会释放全部。崩溃恢复保存每个终端最新的 2 MiB。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"程序";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"原生程序界面";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"支持 Tern Surface Protocol 的程序（omp）绘制原生界面。关闭则在字符网格中绘制。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"原生命令输出";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"将识别的命令（git、ls、cargo、docker…）显示为原生视图；原始输出一键可查。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"输出超过此长度时折叠";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"命令的较长输出在结束后折叠为首尾两行，单条命令保留此行数或回滚缓冲的八分之一，取较大者。「从不」则保留每一行。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"原生补全";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"以原生浮层显示 Tab 补全；补全内容仍由 shell 决定。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"原生输入框编辑";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"在 omp 输入框中用 Shift+方向键或拖拽选择，然后直接输入覆盖、Ctrl+X、Ctrl+C 或 Ctrl+A；Ctrl+Z 用于撤销而非挂起 omp。关闭或在 Vim 模式下，所有按键都交给程序。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"对话中自动纠错";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"键盘会在 omp 与智能体对话的输入框中纠错并预测下一个词，如同聊天软件。关闭则原样输入。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"提示符";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"原生提示符";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"Tern 自行绘制 shell 的提示符行（zsh、bash、fish、nushell 和 PowerShell），因此缩放时不会折行或错位。对新块生效。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"起始位置";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"下方各部分从哪里开始。选择预设会将各部分恢复为预设值。仅当 zsh 运行 powerlevel10k 时，你的 p10k 配置才接管；其余在 zsh、bash、fish、nushell 和 PowerShell 中可用。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"颜色";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"每个片段的颜色，含跟随主题的浅色与深色变体。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"填充";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"片段以彩色块显示，或作为彩色文字显示。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"形状";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"块如何收尾与分隔。作用于块的填充。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"外框";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"连接提示符栏与其下输入行的线条。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"行结束符";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"外框的右端，沿右缘向下。需启用外框。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"间距";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"填充提示符栏左右两侧之间空间的样式。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"提示符字符";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"输入内容前的字符；出错后变红。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .t::before{content:"分隔符";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(10) > .pf-lbl > .h::before{content:"片段之间的分隔。作用于文字填充。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .t::before{content:"Git";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(11) > .pf-lbl > .h::before{content:"分支及其改动的显示方式。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(12) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(12) > .pf-lbl > .t::before{content:"目录";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(12) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(12) > .pf-lbl > .h::before{content:"工作目录显示的长度。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(13) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(13) > .pf-lbl > .t::before{content:"图标";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(13) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(13) > .pf-lbl > .h::before{content:"片段使用图标，或文字与纯文本。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(14) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(14) > .pf-lbl > .t::before{content:"时钟";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(14) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(14) > .pf-lbl > .h::before{content:"时间的显示方式。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(15) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(15) > .pf-lbl > .t::before{content:"空行";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(15) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(15) > .pf-lbl > .h::before{content:"每个提示符上方留一空行，隔开上一条命令的输出与下一个提示符。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(16) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(16) > .pf-lbl > .t::before{content:"提示符片段";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(16) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(16) > .pf-lbl > .h::before{content:"提示符栏左右各显示什么，按顺序排列；所有样式共用一套。拖动可重排或把片段移到另一侧。立即作用于所有块。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(17) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(17) > .pf-lbl > .t::before{content:"折叠历史提示";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(17) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(17) > .pf-lbl > .h::before{content:"较早的提示符收缩为提示符字符，类似 powerlevel10k 的瞬态提示符。关闭则保留每条的淡色副本。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"安全";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"程序写入剪贴板";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"vim、tmux 以及通过 ssh 的程序用 OSC 52 复制。「询问」会先显示程序复制的内容。程序从不读取剪贴板。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"程序链接";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"OSC 8 链接，其文字未必显示真实地址。「询问」在打开前显示地址，「从不」则忽略。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"程序通知";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"程序的提醒（OSC 9、99、777）以浮窗和信息箱显示。settings.json 中的 notification_filters 可丢弃部分，同 kitty 的 filter_notification。";font-size:12px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"粘贴";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"危险粘贴前确认";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"粘贴控制码，或向会逐行执行的程序粘贴换行前先询问，并提供清理选项。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"清理控制码";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"控制码以可见符号粘贴，不再询问。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"换行不按 Enter 直接粘贴";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"向会逐行执行的程序粘贴时，换行以 NEL 粘贴，可另起一行而不执行上一行。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"大段粘贴前确认";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"粘贴超过 16 KB 内容前先询问。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"提示符处给 URL 加引号";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"在 shell 提示符处粘贴的 URL 会自动加引号，使 ? 和 & 仍属于该 URL。";font-size:12px}
+> .pf-sec:nth-of-type(6) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(6) > .pf-sec-t::before{content:"内置";font-size:12px}
+}
+/* 页 5: 13 节 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(13)):not(:has(> .pf-sec:nth-last-of-type(14))){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"Git";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"状态";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"差异";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"分支";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"标签";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"远程";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"拉取与推送";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"已跟踪文件";font-size:13px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"Git 历史";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"日志";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"提交与文件";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"引用日志";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"储藏";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"追溯";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"作者";font-size:13px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"GitHub 与 Jujutsu";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"GitHub 列表";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"GitHub 详情";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"Jujutsu 日志";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"Jujutsu 状态";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"Jujutsu 差异";font-size:13px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"文件";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"列表";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"树";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"找到的文件";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"磁盘占用";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"计数";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"文件详情";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"命令查询";font-size:13px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"查看器";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"文件内容";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"跟踪的日志";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"差异";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"JSON 与 YAML";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"查询结果";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"表";font-size:13px}
+> .pf-sec:nth-of-type(6) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(6) > .pf-sec-t::before{content:"搜索";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"匹配项";font-size:13px}
+> .pf-sec:nth-of-type(7) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(7) > .pf-sec-t::before{content:"构建";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"Cargo 构建";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"Cargo 测试";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"Cargo 依赖树";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"编译器诊断";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"构建运行器";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"Swift 与 Xcode";font-size:13px}
+> .pf-sec:nth-of-type(8) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(8) > .pf-sec-t::before{content:"JavaScript";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"类型错误";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"代码检查与格式化";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"测试";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"安装";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"包与脚本";font-size:13px}
+> .pf-sec:nth-of-type(9) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(9) > .pf-sec-t::before{content:"Python 与 Go";font-size:12px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"Python 测试";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"Python 检查";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"Python 包";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"Go 测试";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"Go 构建";font-size:13px}
+> .pf-sec:nth-of-type(10) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(10) > .pf-sec-t::before{content:"系统";font-size:12px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"进程";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"磁盘";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"环境变量";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"套接字";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"负载与内存";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"系统信息";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"Shell 历史";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"日历";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"Homebrew";font-size:13px}
+> .pf-sec:nth-of-type(11) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(11) > .pf-sec-t::before{content:"网络";font-size:12px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"Ping";font-size:13px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"HTTP";font-size:13px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"DNS";font-size:13px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"路由";font-size:13px}
+> .pf-sec:nth-of-type(12) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(12) > .pf-sec-t::before{content:"容器与云";font-size:12px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"容器与镜像";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"容器构建";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"容器日志";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"Kubernetes 资源";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"Kubernetes 详情";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"Helm 发布";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"Terraform 计划";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"云 CLI";font-size:13px}
+> .pf-sec:nth-of-type(13) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(13) > .pf-sec-t::before{content:"文档";font-size:12px}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"手册页";font-size:13px}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"tldr 页面";font-size:13px}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"帮助";font-size:13px}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(13) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"systemd";font-size:13px}
+}
+/* 页 6: 9 节 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(9)):not(:has(> .pf-sec:nth-last-of-type(10))){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"常规";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"默认位置";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"「新建数据库」与「打开数据库」的起始位置。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"文件夹";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"「始终使用此位置」的起点，以及每次启动时本次会话位置的起点。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"最近文件";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"「最近打开」列出多少个数据库。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"最近文件只读快捷键";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"Ctrl+Alt+Shift+0-9 以相反的只读状态打开最近数据库，Ctrl+0-9 则正常打开。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"恢复时重新打开数据库";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"恢复的数据库块会立即打开其文件。关闭则等待手动打开。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"打开 SQL 标签页时询问";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"保存项目时询问是否保留各 SQL 标签页的文本。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"数据库文件类型";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"文件类型";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"打开与保存对话框在「所有文件」之前提供哪些类型。各模式以空格分隔。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"数据库";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"默认编码";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"新数据库使用的文本编码。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"外键";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"打开数据库时启用外键检查。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"移除结构中的换行";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"结构树将每条 CREATE 语句显示为一行。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"预取块大小";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"数据浏览器每次获取的行数。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"默认字段类型";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"「编辑表」中新字段的默认类型。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"结构树字号";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"在默认字号下，结构树的文字大小；会随 Tern 字号缩放。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"刷新只读数据库";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"以只读方式打开的数据库在磁盘文件变化时重新加载。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"不再询问排序规则";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"使用了 SQLite 不认识的排序规则的数据库会静默采用替代规则，短文本排在前。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"打开后执行的 SQL";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"每次以写入方式打开数据库时执行，例如 PRAGMA 语句。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"数据浏览";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"字体";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"网格的字体族。留空使用 Tern 的等宽字体。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"字号";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"在默认字号下，网格与「编辑单元格」文字的大小；会随界面字号缩放。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"行数上限";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"表格或查询在网格中显示的最大行数。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"单元格字符上限";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"单元格在截断文本前显示的字符数。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"补全触发阈值";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"超过此行数后，筛选不再补全值，网格也不再对列求和。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"在单元格中显示图片";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"含图片的单元格直接显示图片。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"单元格文本换行";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"长文本在单元格内换行显示为多行。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"筛选延迟";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"停止输入后多久应用筛选。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"转义字符";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"在筛选中置于 % 或 _ 之前以按字面匹配。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .t::before{content:"NULL 文本";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(10) > .pf-lbl > .h::before{content:"NULL 单元格显示为什么。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .t::before{content:"BLOB 文本";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(11) > .pf-lbl > .h::before{content:"二进制数据单元格显示为什么。";font-size:12px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"单元格配色";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"NULL 单元格";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"文字与背景色，格式为 #rrggbb。留空则沿用主题。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"BLOB 单元格";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"文字与背景色，格式为 #rrggbb。留空则沿用主题。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"普通单元格";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"文字与背景色，格式为 #rrggbb。留空则沿用主题。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"格式化单元格";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"文字与背景色，格式为 #rrggbb。留空则沿用主题。";font-size:12px}
+> .pf-sec:nth-of-type(6) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(6) > .pf-sec-t::before{content:"编辑单元格";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"紧凑缩进";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"JSON 与 XML 使用较少空格缩进。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"排序 JSON 键";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"格式化 JSON 时对每个对象的键排序。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"自动切换模式";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"编辑器根据单元格内容自动选用文本、JSON、XML 或图片模式。";font-size:12px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"文本换行";font-size:13px}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(6) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"单元格编辑器中的长行换行。";font-size:12px}
+> .pf-sec:nth-of-type(7) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(7) > .pf-sec-t::before{content:"从结构树拖拽";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"编写 SELECT";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"拖放表或其列会写出对应的查询。";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"编写 INSERT";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"拖放会写出对应的 INSERT。";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"限定名称";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"名称附带其架构前缀：main.users。";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"名称加引号";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"名称按 SQL 页的「标识符引号」设置加引号。";font-size:12px}
+> .pf-sec:nth-of-type(8) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(8) > .pf-sec-t::before{content:"SQL 编辑器";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"字体";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"SQL 编辑器的字体族。留空使用 Tern 的等宽字体。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"字号";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"在默认字号下，SQL 编辑器文字的大小；会随界面字号缩放。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"结果字号";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"在默认字号下，查询消息与 SQL 日志的大小；会随 Tern 字号缩放。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"制表符宽度";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"每个制表位的列宽。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"用制表符缩进";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"Tab 插入制表符。关闭则插入空格。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"自动换行";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"SQL 编辑器中长行的换行位置。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(7) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(7) > .pf-lbl > .t::before{content:"标识符引号";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(7) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(7) > .pf-lbl > .h::before{content:"生成的 SQL 如何为表和列名加引号。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(8) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(8) > .pf-lbl > .t::before{content:"代码补全";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(8) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(8) > .pf-lbl > .h::before{content:"编辑器在输入时补全关键字、表和列。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(9) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(9) > .pf-lbl > .t::before{content:"关键字大小写";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(9) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(9) > .pf-lbl > .h::before{content:"补全写入关键字的方式。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(10) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(10) > .pf-lbl > .t::before{content:"错误标记";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(10) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(10) > .pf-lbl > .h::before{content:"编辑器标记出失败的语句。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(11) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(11) > .pf-lbl > .t::before{content:"并排显示结果";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(11) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(11) > .pf-lbl > .h::before{content:"编辑器与结果并排。关闭则结果显示在下方。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(12) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(12) > .pf-lbl > .t::before{content:"标签页上的关闭按钮";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(12) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(12) > .pf-lbl > .h::before{content:"SQL 标签页显示关闭按钮。";font-size:12px}
+> .pf-sec:nth-of-type(9) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(9) > .pf-sec-t::before{content:"扩展";font-size:12px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"扩展";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"每次打开数据库时加载的库。";font-size:12px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"允许 SQL 调用 load_extension";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"允许 SQL 自行加载扩展库。仅为受信任的数据库开启。";font-size:12px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"允许 SQL 调用 load_extension";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"允许 SQL 自行加载扩展库。仅为受信任的数据库开启。";font-size:12px}
+}
+/* 页 7: 5 节 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(5)):not(:has(> .pf-sec:nth-last-of-type(6))){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"内核";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"本机 Python 解释器";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"本机笔记本内核使用的 Python，除非笔记本自行指定。留空则为每个笔记本自动选择。其他主机上的笔记本在其主机上选择。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"打开笔记本时启动内核";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"否则内核在首次运行或补全时启动。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"运行";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"出错后停止";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"某个单元格失败后，排队中的后续单元格不再执行。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"重启前询问";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"重启内核会丢失所有变量，因此会先询问。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"编辑";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"行号";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"代码单元格显示行号（在单元格内按 L 切换）。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"代码自动换行";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"代码单元格中的长行自动换行。Markdown 单元格始终换行。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"输入时自动补全";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"输入时即显示补全，不必等 Tab。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"输出";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"输出超过此长度时滚动";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"较长的输出在单元格内滚动（在单元格内按 O 切换）。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"图形格式";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"matplotlib 图形的渲染方式：PNG、适合 Retina 屏幕的高清 PNG，或矢量 SVG。对更改后启动的内核生效。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"交互式 HTML 输出";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"含脚本的输出（Plotly、Bokeh、组件的 HTML）在网页视图中运行。关闭则以静态方式显示。";font-size:12px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"保存";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"自动保存间隔";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"有改动的笔记本会自动保存。⌘S 还会写入检查点。";font-size:12px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"记录执行计时";font-size:13px}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(5) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"单元格在元数据中记录开始与结束时间，与 JupyterLab 的设置相同。";font-size:12px}
+}
+/* 页 8: 3 节 / 2 子 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(3)):not(:has(> .pf-sec:nth-last-of-type(4))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(2)){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"智能体";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"模型";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"Carly 使用的 omp 模型：角色（@smol、@default）或模型名。她使用你 omp 的登录凭据。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"记忆";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"Carly 在每次对话开始时读取、并在学习过程中写入的 Markdown：她是谁（SOUL.md）、你是谁（USER.md）、长期记忆（MEMORY.md）、每日笔记，以及心跳清单（HEARTBEAT.md）";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"语音";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"语音";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"麦克风使用的实时语音（arbor、breeze、cove、ember、juniper、maple、sol、spruce、vale）。留空则使用 omp 的。语音功能需要 omp 已登录 ChatGPT（Codex）。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"以语音开始";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"打开 Carly 会开启麦克风，可直接说话。无论如何，麦克风按钮或在空输入框中按 ↵ 都能开关。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"计划任务";font-size:12px}
+}
+/* 页 10: 14 节 / 3 子 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(14)):not(:has(> .pf-sec:nth-last-of-type(15))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(3)){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"拉取";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"自动拉取";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"拉取时修剪";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"移除远程已删除的远程跟踪分支。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"拉取按钮";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"Git 块工具栏的「拉取」如何合并上游。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"历史";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"优先加载的提交数";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"滚动时加载更多";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"接近图形末尾时读取更早的历史。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"默认分支";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"新建仓库的初始分支。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"图形列数";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"作者";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"每个提交作者的头像和姓名。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"日期";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"每个提交的创建时间。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"SHA";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"简写的提交 ID。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"差异";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"并排";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"新旧内容分两列（否则为统一视图）。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"作为整个文件打开";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"显示完整文件，而非仅显示改动的差异块。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"文件树";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"以文件夹树列出改动的文件（否则为扁平路径）。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"文本编码";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"差异与文件视图中 blob 字节如何解码为文本，适用于所有仓库。";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"面板尺寸";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"图形的列宽和检查器宽度。";font-size:12px}
+> .pf-sec:nth-of-type(5) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(5) > .pf-sec-t::before{content:"提交身份";font-size:12px}
+> .pf-sec:nth-of-type(6) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(6) > .pf-sec-t::before{content:"添加配置";font-size:12px}
+> .pf-sec:nth-of-type(7) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(7) > .pf-sec-t::before{content:"SSH";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"使用 SSH 代理";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"通过系统代理和 ~/.ssh/config 认证 SSH 远程。";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"私钥";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"代理关闭时使用。";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"公钥";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"将其添加到你的 Git 主机。";font-size:12px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"复制公钥";font-size:13px}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(7) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"将公钥复制到剪贴板。";font-size:12px}
+> .pf-sec:nth-of-type(8) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(8) > .pf-sec-t::before{content:"签名";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"GPG 程序";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"gpg，或其完整路径。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"签名密钥";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"密钥 ID；留空使用 git 的 user.signingkey。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"签名提交";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"为每次提交添加 -S。";font-size:12px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"签名标签";font-size:13px}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(8) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"创建签名（-s）标签。";font-size:12px}
+> .pf-sec:nth-of-type(9) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(9) > .pf-sec-t::before{content:"外部编辑器";font-size:12px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"编辑器";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"以文件或仓库路径运行；留空使用系统默认程序。";font-size:12px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"试一试";font-size:13px}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(9) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"聚焦本机某个检出目录中的 Git 块或终端来试用。";font-size:12px}
+> .pf-sec:nth-of-type(10) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(10) > .pf-sec-t::before{content:"Git 可执行文件";font-size:12px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"自定义 git 可执行文件";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"运行下方指定的程序，而非 PATH 中的 git。";font-size:12px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"Git 可执行文件";font-size:13px}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(10) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"路径或命令名。";font-size:12px}
+> .pf-sec:nth-of-type(11) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(11) > .pf-sec-t::before{content:"Git 通知";font-size:12px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"操作成功";font-size:13px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"检出、提交、推送…";font-size:12px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"操作失败";font-size:13px}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(11) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"附带 git 的错误信息。";font-size:12px}
+> .pf-sec:nth-of-type(12) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(12) > .pf-sec-t::before{content:"AI 助手";font-size:12px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"模型";font-size:13px}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(12) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"通过 omp 及其登录凭据运行：一个 omp 模型或角色。留空使用 omp 的提交角色，否则用其 smol 角色。";font-size:12px}
+> .pf-sec:nth-of-type(13) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(13) > .pf-sec-t::before{content:"仓库";font-size:12px}
+> .pf-sec:nth-of-type(14) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(14) > .pf-sec-t::before{content:"Git-flow";font-size:12px}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"生产分支";font-size:13px}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"开发分支";font-size:13px}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"功能前缀";font-size:13px}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"发布前缀";font-size:13px}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(14) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"热修复前缀";font-size:13px}
+}
+/* 页 11: 1 节 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(1)):not(:has(> .pf-sec:nth-last-of-type(2))){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"插件";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"加载插件";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"插件文件夹中的插件可添加块、镜头、命令和样式。关闭后不加载任何插件。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"中文汉化";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"0.1.0 · zh-cn";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"插件文件夹";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"重新加载会拾取新增、移除或修改的插件，作用于本窗口和会话守护进程。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"安装…";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"插件目录或 git URL，会被复制到插件文件夹。";font-size:12px}
+}
+/* 页 12: 4 节 / 4 子 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(4)):not(:has(> .pf-sec:nth-last-of-type(5))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(4)){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"守护进程";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"登录时启动";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"登录时启动守护进程（无窗口），并恢复其保留的会话：中途被打断的智能体（崩溃、断电）会从断点继续。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"显示在系统托盘";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"守护进程运行时，系统托盘中的 Tern 图标会显示正在运行和需要你处理的内容，并可打开 Tern、新窗口或已有窗口。「停止会话」也在那里。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"套接字";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"窗口以及块中的 tern whoami 连接守护进程的地址。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"此窗口";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"会话";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"1 个会话 · 1 个标签页 · 1 个块";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"点击其他会话的标签页";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"在侧边标签列表和任务控制中。选择「保留」时，该会话需双击才会离开；会话切换器（Ctrl+Shift+Space）和信息箱始终可切换。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"启动时";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"重连远程主机";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"上次窗口使用的主机会在后台重新连接。关闭后仅保留保存记录：可在「设置 › 主机」中选择连接。本机会话始终恢复，由守护进程保留。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"关闭";font-size:12px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"关闭前确认";font-size:13px}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(4) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"关闭块、标签页或会话会结束其中的程序。仅当有程序忙碌时（命令运行中、智能体回合中、编辑器有未保存内容）才会询问；空闲的 shell 和智能体立即关闭。已锁定的会话会拒绝关闭。";font-size:12px}
+}
+/* 页 13: 4 节 / 1 子 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(4)):not(:has(> .pf-sec:nth-last-of-type(5))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(1)){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"共享";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"共享会话";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"允许 tern web serve 将本机会话提供给浏览器。关闭则拒绝启动；无论是否开启，连接其他主机都不受影响。手机和其他电脑目前尚无法连接 Windows。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"已连接";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"添加主机";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"用 tern remote install --allow you 配置（将你的公钥写入其 authorized_keys，并在 access.toml 中加一条规则），然后按主机名、IP[:端口] 或 tailnet 名通过 UDP 8376 添加，或通过中继以它打印的端点 ID 从任何位置添加：无需入站 UDP。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"通知";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"连接通知";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"远程主机无法连接或连接断开时提示。关闭后，或对该主机点了静音铃铛，仅在状态中显示；你主动发起的连接失败时仍会说明原因。";font-size:12px}
+> .pf-sec:nth-of-type(4) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(4) > .pf-sec-t::before{content:"主机密钥";font-size:12px}
+}
+/* 页 14: 3 节 / 6 子 */
+.pf-doc:has(> .pf-sec:nth-last-of-type(3)):not(:has(> .pf-sec:nth-last-of-type(4))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(6)){
+> .pf-sec:nth-of-type(1) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(1) > .pf-sec-t::before{content:"渲染";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"渲染器";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"绘制 Tern 窗口的引擎。「自动」会使用显卡，并在其无响应时停用。重启后生效。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"绘制方式";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"窗口绘制所用的 GPU 与图形 API。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"抗锯齿";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"平滑形状、边框和描边的边缘。文字使用自己的平滑方式。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"MSAA";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"对每条边缘进行多次采样：曲线与细线更精细，GPU 开销更大。会自动降低到 GPU 支持的级别。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"垂直同步";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"帧会等待显示器刷新。关闭后立即显示，可能出现撕裂。";font-size:12px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"排队帧数";font-size:13px}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(1) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"GPU 可提前于显示准备多少帧：数值越小输入响应越快，越大则重度动画越平滑。";font-size:12px}
+> .pf-sec:nth-of-type(2) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(2) > .pf-sec-t::before{content:"设置文件";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"settings.json";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"偏离默认值的设置，以 JSON 呈现。点击重新加载可应用手动编辑。";font-size:12px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"配置文件夹";font-size:13px}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(2) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"settings.json、known_hosts 和主机列表存放于此。";font-size:12px}
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"诊断";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .t::before{content:"日志与应用状态";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"每个 Tern 进程的日志、Tern 当前显示的快照（含正在运行的命令与选中内容），以及 Tern 保留在两次运行之间的状态。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .t::before{content:"日志文件夹";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(2) > .pf-lbl > .h::before{content:"STENCIL_LOG 决定日志记录内容，STENCIL_TRACE 记录性能剖析。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .t::before{content:"发送崩溃报告";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(3) > .pf-lbl > .h::before{content:"Tern 崩溃时，将错误、近期日志以及系统与 GPU 信息发送给 Stencil。报告也会保存在日志文件夹中。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .t::before{content:"主题文件夹";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(4) > .pf-lbl > .h::before{content:"此处的 CSS 主题（NAME.css，各自基于另一主题）会加入内置主题，并随编辑实时生效。文件夹不存在请自行创建。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .t::before{content:"语法文件夹";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(5) > .pf-lbl > .h::before{content:"此处的 Sublime 语法（NAME.sublime-syntax）可增加语言高亮，或替换内置语法。文件夹不存在请自行创建；更改在重启后生效。";font-size:12px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .t::before{content:"omp 文件夹";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-child(6) > .pf-lbl > .h::before{content:"Tern 读取 omp 主题选择（config.yml）及 themes/ 中自定义主题的位置，并跟随其变化。留空则使用 omp 默认的文件夹。";font-size:12px}
+}.tn-pl-scopes > .tn-pl-scope:nth-of-type(1){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(1)::before{content:"全部";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(2){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(2)::before{content:"命令";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(3){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(3)::before{content:"文件";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(4){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(4)::before{content:"搜索";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(5){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(5)::before{content:"分支";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(6){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(6)::before{content:"提交";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(7){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(7)::before{content:"会话";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(8){font-size:0 !important}
+.tn-pl-scopes > .tn-pl-scope:nth-of-type(8)::before{content:"主机";font-size:12px !important;display:inline-block;width:28px;text-align:center}
+.tn-pl-list > .ck-group:nth-of-type(1){font-size:0}
+.tn-pl-list > .ck-group:nth-of-type(1)::before{content:"主机";font-size:11px}
+.tn-pl-list > .ck-group:nth-of-type(3){font-size:0}
+.tn-pl-list > .ck-group:nth-of-type(3)::before{content:"添加";font-size:11px}
+.ck-item:nth-of-type(2) .ck-sub{font-size:0}
+.ck-item:nth-of-type(2) .ck-sub::before{content:"本机 · 1 个会话 · 当前";font-size:12px}
+.ck-item:nth-of-type(4) .ck-label{font-size:0}
+.ck-item:nth-of-type(4) .ck-label::before{content:"添加远程主机…";font-size:13px}
+.ck-item:nth-of-type(4) .ck-sub{font-size:0}
+.ck-item:nth-of-type(4) .ck-sub::before{content:"地址或 tailnet 对等节点";font-size:12px}
+.ck-item:nth-of-type(5) .ck-label{font-size:0}
+.ck-item:nth-of-type(5) .ck-label::before{content:"从手机连接…";font-size:13px}
+.ck-item:nth-of-type(5) .ck-sub{font-size:0}
+.ck-item:nth-of-type(5) .ck-sub::before{content:"用手机扫码";font-size:12px}
+.ck-foot > span:nth-child(1){font-size:0}
+.ck-foot > span:nth-child(1)::after{content:" 导航";font-size:11px}
+.ck-foot > span:nth-child(2){font-size:0}
+.ck-foot > span:nth-child(2)::after{content:" 运行";font-size:11px}
+.ck-foot > span:nth-child(4){font-size:0}
+.ck-foot > span:nth-child(4)::after{content:"关闭";font-size:11px}
+.ck-foot > span:nth-child(4) .kbd{font-size:10.5px}
+.tn-ib-t{font-size:0}
+.tn-ib-t::before{content:"需要处理";font-size:13px}
+.tn-ib-clear{font-size:0}
+.tn-ib-clear::before{content:"全部清除";font-size:12px}
+.tn-ib-empty-t{font-size:0}
+.tn-ib-empty-t::before{content:"暂无需要你处理的事项";font-size:14px}
+.tn-ib-empty-s{font-size:0}
+.tn-ib-empty-s::before{content:"提示音、长命令、失败的退出，以及等待你处理的智能体都会出现在这里。";font-size:12px}
+.tn-pl-list > .ck-group:nth-child(1){font-size:0}
+.tn-pl-list > .ck-group:nth-child(1)::before{content:"块";font-size:11px}
+.tn-pl-list > .ck-group:nth-child(4){font-size:0}
+.tn-pl-list > .ck-group:nth-child(4)::before{content:"会话";font-size:11px}
+.tn-pl-list > .ck-group:nth-child(6){font-size:0}
+.tn-pl-list > .ck-group:nth-child(6)::before{content:"Git";font-size:11px}
+.ck-foot > span:nth-child(1){font-size:0}
+.ck-foot > span:nth-child(1)::after{content:" 导航";font-size:11px}
+.ck-foot > span:nth-child(2){font-size:0}
+.ck-foot > span:nth-child(2)::after{content:" 运行";font-size:11px}
+.ck-foot > span:nth-child(4){font-size:0}
+.ck-foot > span:nth-child(4)::after{content:"关闭";font-size:11px}
+.ck-foot > span:nth-child(4) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(1){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(1)::before{content:"粘贴";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(1) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(1) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(2){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(2)::before{content:"全选";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(2) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(2) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(3){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(3)::before{content:"向右拆分";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(3) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(3) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(4){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(4)::before{content:"向下拆分";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(4) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(4) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(5){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(5)::before{content:"将块移到标签页…";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(5) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(5) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(6){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(6)::before{content:"将块移到窗口…";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(6) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(6) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(7){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(7)::before{content:"停靠块";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(7) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(7) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(8){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(8)::before{content:"在回滚缓冲区中查找";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(8) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(8) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(9){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(9)::before{content:"在编辑器中打开回滚缓冲区";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(9) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(9) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(10){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(10)::before{content:"清屏并清空回滚缓冲区";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(10) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(10) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(11){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(11)::before{content:"重启 Shell";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(11) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(11) .kbd{font-size:10.5px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(12){font-size:0}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(12)::before{content:"关闭块";font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(12) .sub{font-size:13px}
+.pop.ctx:not(:has(.mi:nth-of-type(13))) > .mi:nth-of-type(12) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1)::before{content:"复制";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2)::before{content:"粘贴";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3)::before{content:"全选";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4)::before{content:"向右拆分";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5)::before{content:"向下拆分";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6)::before{content:"将块移到标签页…";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7)::before{content:"将块移到窗口…";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8)::before{content:"停靠块";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9)::before{content:"在回滚缓冲区中查找";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10)::before{content:"在编辑器中打开回滚缓冲区";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11)::before{content:"清屏并清空回滚缓冲区";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12)::before{content:"重启 Shell";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(13){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(13)::before{content:"关闭块";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(13) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(13) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(1){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(1)::before{content:"重命名标签页…";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(1) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(1) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(2){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(2)::before{content:"整理标签页标题";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(2) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(2) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(3){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(3)::before{content:"新建标签页";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(3) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(3) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(4){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(4)::before{content:"标签页左移";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(4) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(4) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(5){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(5)::before{content:"标签页右移";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(5) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(5) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(6){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(6)::before{content:"将标签页移到窗口…";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(6) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(6) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(7){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(7)::before{content:"锁定会话";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(7) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(7) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(8){font-size:0}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(8)::before{content:"关闭标签页";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(8) .sub{font-size:13px}
+.pop.ctx:has(.mi-row) > .mi:nth-of-type(8) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi-row) > .mi-row:nth-of-type(1) > .sub{font-size:0}
+.pop.ctx:has(.mi-row) > .mi-row:nth-of-type(1) > .sub::before{content:"颜色";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi-row:nth-of-type(3) > .sub{font-size:0}
+.pop.ctx:has(.mi-row) > .mi-row:nth-of-type(3) > .sub::before{content:"vCPU";font-size:13px}
+.pop.ctx:has(.mi-row) > .mi-row:nth-of-type(4) > .sub{font-size:0}
+.pop.ctx:has(.mi-row) > .mi-row:nth-of-type(4) > .sub::before{content:"内存";font-size:13px}
+.pf-doc:has(> .pf-sec:nth-last-of-type(3)):not(:has(> .pf-sec:nth-last-of-type(4))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(2)){
+> .pf-sec:nth-of-type(3) > .pf-sec-t{font-size:0}
+> .pf-sec:nth-of-type(3) > .pf-sec-t::before{content:"计划任务";font-size:12px}
+> .pf-sec:nth-of-type(3) .tn-ct-title{font-size:0}
+> .pf-sec:nth-of-type(3) .tn-ct-title::before{content:"心跳";font-size:13px}
+> .pf-sec:nth-of-type(3) .tn-ct-acts .btn:nth-of-type(1){font-size:0}
+> .pf-sec:nth-of-type(3) .tn-ct-acts .btn:nth-of-type(1)::before{content:"立即运行";font-size:12.5px}
+> .pf-sec:nth-of-type(3) .tn-ct-acts .btn:nth-of-type(2){font-size:0}
+> .pf-sec:nth-of-type(3) .tn-ct-acts .btn:nth-of-type(2)::before{content:"暂停";font-size:12.5px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-of-type(1) > .pf-lbl > .t{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-of-type(1) > .pf-lbl > .t::before{content:"间隔";font-size:13px}
+> .pf-sec:nth-of-type(3) .pf-row:nth-of-type(1) > .pf-lbl > .h{font-size:0}
+> .pf-sec:nth-of-type(3) .pf-row:nth-of-type(1) > .pf-lbl > .h::before{content:"Carly 每隔这么久检查一次 HEARTBEAT.md，只在有事情需要你时出言。清单为空时不运行任何内容。";font-size:12px}
+}
+.pf-doc:has(> .pf-sec:nth-last-of-type(14)):not(:has(> .pf-sec:nth-last-of-type(15))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(3)) > .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h{font-size:0}
+.pf-doc:has(> .pf-sec:nth-last-of-type(14)):not(:has(> .pf-sec:nth-last-of-type(15))):has(> .pf-sec:nth-of-type(1) > .pf-rows > *:nth-child(3)) > .pf-sec:nth-of-type(1) .pf-row:nth-child(1) > .pf-lbl > .h::before{content:"按此间隔在后台拉取 Git 块所显示仓库的所有远程。";font-size:12px}
+/* 终端右键菜单 13 项版（有 Copy） */
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1)::before{content:"复制";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(1) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2)::before{content:"全选";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(2) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3)::before{content:"向右拆分";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(3) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4)::before{content:"向下拆分";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(4) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5)::before{content:"将块移到标签页…";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(5) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6)::before{content:"将块移到窗口…";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(6) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7)::before{content:"停靠块";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(7) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8)::before{content:"在回滚缓冲区中查找";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(8) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9)::before{content:"在编辑器中打开回滚缓冲区";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(9) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10)::before{content:"清屏并清空回滚缓冲区";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(10) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11)::before{content:"重启 Shell";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(11) .kbd{font-size:10.5px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12){font-size:0}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12)::before{content:"关闭块";font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12) .sub{font-size:13px}
+.pop.ctx:has(.mi:nth-of-type(13)) > .mi:nth-of-type(12) .kbd{font-size:10.5px}
+/* 命令面板 Hosts 页（按 tn-pl-list 真实位置） */
+.tn-pl-list > .ck-item:nth-of-type(4) .ck-label{font-size:0}
+.tn-pl-list > .ck-item:nth-of-type(4) .ck-label::before{content:"添加远程主机…";font-size:13px}
+.tn-pl-list > .ck-item:nth-of-type(5) .ck-label{font-size:0}
+.tn-pl-list > .ck-item:nth-of-type(5) .ck-label::before{content:"从手机连接…";font-size:13px}
+.tn-pl-list > .ck-item:nth-of-type(2) .ck-sub{font-size:0}
+.tn-pl-list > .ck-item:nth-of-type(2) .ck-sub::before{content:"本机 · 1 个会话 · 当前";font-size:12px}
+.tn-pl-list > .ck-item:nth-of-type(4) .ck-sub{font-size:0}
+.tn-pl-list > .ck-item:nth-of-type(4) .ck-sub::before{content:"地址或 tailnet 对等节点";font-size:12px}
+.tn-pl-list > .ck-item:nth-of-type(5) .ck-sub{font-size:0}
+.tn-pl-list > .ck-item:nth-of-type(5) .ck-sub::before{content:"用手机扫码";font-size:12px}
+/* 添加远程主机对话框 */
+.tn-hd-t{font-size:0}
+.tn-hd-t::before{content:"添加远程主机";font-size:15px}
+.tn-hd-s{font-size:0}
+.tn-hd-s::before{content:"一台你可以 SSH 登录的机器，Tern 会为其完成配置；或一台正在运行 tern remote serve 的机器。";font-size:12px}

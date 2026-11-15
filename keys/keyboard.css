@@ -1,0 +1,2918 @@
+.pf-doc:has(>.pf-sec:nth-last-of-type(14)):not(:has(>.pf-sec:nth-last-of-type(15))):has(>.pf-sec:nth-of-type(1)>.pf-rows>*:nth-child(2)){
+>.pf-sec:nth-of-type(1){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"显示/隐藏 Tern";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"任意应用中：把 Tern 提到前台，或在前台时隐藏";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"快速终端";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"任意应用中：在指针处的屏幕显示快速终端，或有焦点时隐藏";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(2){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"样式";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"Drop 从屏幕顶部垂下一张卡片，拖边缘调整大小；Summon 像 Spotlight 一样在顶部附近展开一行，随输出增多而变长。热键 › 快速终端 可显示和隐藏；`tern quick` 也行。";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"失去焦点时隐藏";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"点击其他应用或窗口会隐藏快速终端；关闭后，它会一直保留，直到再次按下热键。";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(3){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"终端中";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"日文、中文、韩文等输入法会在终端和程序的输入框中组字。关闭后，按键直接输入键盘布局的字符，Android 键盘则逐个按键输入。";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"编辑器中";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"文件块中的代码、文本和 Markdown 编辑器同理。";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(4){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"快捷键";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"用另一终端的默认键位覆盖 Tern 的：它的组合键占用对应按键，Tern 的其他快捷键保留。";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(5){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"新建标签页";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"新建标签页";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"新建窗口";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"新建窗口";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"切换会话…";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"切换会话…";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"新建会话";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"新建会话";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"重命名会话…";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"重命名会话…";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"锁定会话";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"锁定会话";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"关闭会话";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"关闭会话";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"上移会话";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"会话上移";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"下移会话";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"会话下移";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"折叠所有会话";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"折叠全部会话";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"展开所有会话";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"展开全部会话";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"切换主机…";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"切换主机…";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"添加远程主机…";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"添加远程主机…";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"从手机连接…";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"从手机连接…";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"在主机上新建会话…";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"在主机上新建会话…";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"断开主机连接…";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"断开主机";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"移除已保存主机…";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"忘记已保存的主机…";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"下一个标签页";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"下一个标签页";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"按编号显示标签页";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"用数字记录修饰键；Ctrl+Shift+0 表示第十个。";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"上一个标签页";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"上一个标签页";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"跨会话下一个标签页";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"下一个标签页（跨会话）";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"跨会话上一个标签页";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"上一个标签页（跨会话）";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"右移标签页";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"标签页右移";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"左移标签页";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"标签页左移";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"速览标签页";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"预览标签页";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"任务控制";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"任务控制";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"重命名标签页…";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"重命名标签页…";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"关闭标签页";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"关闭标签页";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"重新打开已关闭的标签页";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"重开已关闭的标签页";font-size:12px;display:block}
+.pf-row:nth-child(30)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.t::before{content:"显示上一个标签页";font-size:13.5px}
+.pf-row:nth-child(30)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.h::before{content:"显示上一个标签页";font-size:12px;display:block}
+.pf-row:nth-child(31)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.t::before{content:"整理标签页标题";font-size:13.5px}
+.pf-row:nth-child(31)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.h::before{content:"整理标签页标题";font-size:12px;display:block}
+.pf-row:nth-child(32)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.t::before{content:"聚焦标签列表";font-size:13.5px}
+.pf-row:nth-child(32)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.h::before{content:"聚焦标签页列表";font-size:12px;display:block}
+.pf-row:nth-child(33)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.t::before{content:"切换标签方向";font-size:13.5px}
+.pf-row:nth-child(33)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.h::before{content:"切换标签页方向";font-size:12px;display:block}
+.pf-row:nth-child(34)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.t::before{content:"水平标签";font-size:13.5px}
+.pf-row:nth-child(34)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.h::before{content:"标签页：横向";font-size:12px;display:block}
+.pf-row:nth-child(35)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.t::before{content:"垂直标签";font-size:13.5px}
+.pf-row:nth-child(35)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.h::before{content:"标签页：纵向";font-size:12px;display:block}
+.pf-row:nth-child(36)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.t::before{content:"显示/隐藏侧边栏";font-size:13.5px}
+.pf-row:nth-child(36)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.h::before{content:"显示/隐藏侧栏";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(6){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"新建 Carly 块";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"新建 Carly 块";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"新建 Shell 块";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"新建 Shell 块";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"新建智能体块";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"新建智能体块";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"新建浏览器块…";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"新建浏览器块…";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"在分屏中打开 URL";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在分屏中打开网址";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"新建任务管理器块";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"新建任务管理器块";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"性能剖析进程";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"分析进程";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"新建 Git 块";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"新建 Git 块";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"审查改动";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"审查变更";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"新建数据库…";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"新建数据库…";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"新建内存数据库";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"新建内存数据库";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"打开数据库…";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"打开数据库…";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"以只读方式打开数据库…";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"只读打开数据库…";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"打开最近的数据库";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"打开最近的数据库";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"新建看板块";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"新建看板块";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"打开看板…";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"打开看板…";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"以看板打开";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"作为看板打开";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"新建画布块";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"新建画布块";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"打开画布文件…";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"打开画布文件…";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"聚焦地址栏";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"聚焦地址栏";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"检查页面";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"检查页面";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"向右拆分";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"向右拆分";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"浏览器后退";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"在浏览器块中";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"浏览器前进";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"在浏览器块中";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"向下拆分";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"向下拆分";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"缩放块";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"缩放块";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"均分分屏";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"均分分屏";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"上移分隔线";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"调整分屏：向上";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"下移分隔线";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"调整分屏：向下";font-size:12px;display:block}
+.pf-row:nth-child(30)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.t::before{content:"左移分隔线";font-size:13.5px}
+.pf-row:nth-child(30)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.h::before{content:"调整分屏：向左";font-size:12px;display:block}
+.pf-row:nth-child(31)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.t::before{content:"右移分隔线";font-size:13.5px}
+.pf-row:nth-child(31)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.h::before{content:"调整分屏：向右";font-size:12px;display:block}
+.pf-row:nth-child(32)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.t::before{content:"下一个块";font-size:13.5px}
+.pf-row:nth-child(32)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.h::before{content:"下一个块";font-size:12px;display:block}
+.pf-row:nth-child(33)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.t::before{content:"上一个块";font-size:13.5px}
+.pf-row:nth-child(33)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.h::before{content:"上一个块";font-size:12px;display:block}
+.pf-row:nth-child(34)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.t::before{content:"聚焦左侧块";font-size:13.5px}
+.pf-row:nth-child(34)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.h::before{content:"聚焦块：左";font-size:12px;display:block}
+.pf-row:nth-child(35)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.t::before{content:"聚焦右侧块";font-size:13.5px}
+.pf-row:nth-child(35)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.h::before{content:"聚焦块：右";font-size:12px;display:block}
+.pf-row:nth-child(36)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.t::before{content:"聚焦上方块";font-size:13.5px}
+.pf-row:nth-child(36)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.h::before{content:"聚焦块：上";font-size:12px;display:block}
+.pf-row:nth-child(37)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.t::before{content:"聚焦下方块";font-size:13.5px}
+.pf-row:nth-child(37)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.h::before{content:"聚焦块：下";font-size:12px;display:block}
+.pf-row:nth-child(38)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.t::before{content:"重启 Shell";font-size:13.5px}
+.pf-row:nth-child(38)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.h::before{content:"重启 Shell";font-size:12px;display:block}
+.pf-row:nth-child(39)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.t::before{content:"关闭块";font-size:13.5px}
+.pf-row:nth-child(39)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.h::before{content:"关闭块";font-size:12px;display:block}
+.pf-row:nth-child(40)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.t::before{content:"左移块";font-size:13.5px}
+.pf-row:nth-child(40)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.h::before{content:"块左移";font-size:12px;display:block}
+.pf-row:nth-child(41)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.t::before{content:"右移块";font-size:13.5px}
+.pf-row:nth-child(41)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.h::before{content:"块右移";font-size:12px;display:block}
+.pf-row:nth-child(42)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.t::before{content:"上移块";font-size:13.5px}
+.pf-row:nth-child(42)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.h::before{content:"块上移";font-size:12px;display:block}
+.pf-row:nth-child(43)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.t::before{content:"下移块";font-size:13.5px}
+.pf-row:nth-child(43)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.h::before{content:"块下移";font-size:12px;display:block}
+.pf-row:nth-child(44)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.t::before{content:"将块移到标签页…";font-size:13.5px}
+.pf-row:nth-child(44)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.h::before{content:"块移到标签页";font-size:12px;display:block}
+.pf-row:nth-child(45)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.t::before{content:"将块移到会话…";font-size:13.5px}
+.pf-row:nth-child(45)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.h::before{content:"块移到会话";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(7){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"在回滚缓冲区中查找";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"滚动缓冲区查找";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"复制";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"复制";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"上一个匹配项";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"查找栏打开时";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"下一个匹配项";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"查找栏打开时";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"全选";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在终端中";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"粘贴";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"粘贴";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"粘贴选区";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"粘贴选区";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"跳到上一个提示符";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"上一个提示符";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"跳到下一个提示符";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"下一个提示符";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"跳到回复开头";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"开始回复";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"向上滚动一行";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"向上滚动一行";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"向下滚动一行";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"向下滚动一行";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"向上滚动一页";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"向上滚动一页";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"向下滚动一页";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"向下滚动一页";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"滚动到顶部";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"滚动到顶部";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"滚动到底部";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"滚动到底部";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"在编辑器中打开回滚缓冲区";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"在编辑器中打开滚动缓冲区";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"折叠或展开长输出";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"折叠/展开输出";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"清屏并清空回滚缓冲区";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"清屏并清滚动缓冲区";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"转到目录…";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"转到目录";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"插入路径…";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"插入路径";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(8){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"命令面板";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"打开命令面板";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"在主窗口保留为标签页";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"在快速终端中";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"询问 Carly…";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"Carly";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"Carly：新对话";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"Carly：新对话";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"Carly：计划任务";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"Carly：计划任务";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"切换主机窗口…";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"切换主机窗口";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"更新远程主机…";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"更新远程主机…";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"从云端取回";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"从云端取回";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"新建浏览器画中画";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"新建浏览器画中画";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"在画中画中打开 URL";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"在画中画中打开网址";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"新建屏幕块";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"新建屏幕块";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"停止控制屏幕";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"释放屏幕";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"新建笔记本";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"新建笔记本";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"打开笔记本…";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"打开笔记本…";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"停靠块";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"停放块";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"已停靠的块";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"已停放的块";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"增大字号";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"增大字号";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"减小字号";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"减小字号";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"重置字号";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"重置字号";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"更改主题…";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"更改主题…";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"更改不透明度…";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"不透明度";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"更改模糊…";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"模糊";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"跟随系统外观";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"跟随系统外观";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"浅色外观";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"浅色外观";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"深色外观";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"深色外观";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"选中即复制";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"选中即复制";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"自动对比度校正";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"对比度";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"原生程序界面";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"原生界面元素";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"Markdown 标题：自动";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"标题：自动";font-size:12px;display:block}
+.pf-row:nth-child(30)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.t::before{content:"Markdown 标题：标注";font-size:13.5px}
+.pf-row:nth-child(30)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.h::before{content:"标题：带注释";font-size:12px;display:block}
+.pf-row:nth-child(31)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.t::before{content:"Markdown 标题：分级";font-size:13.5px}
+.pf-row:nth-child(31)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.h::before{content:"标题：按字号";font-size:12px;display:block}
+.pf-row:nth-child(32)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.t::before{content:"编辑：内联或分屏";font-size:13.5px}
+.pf-row:nth-child(32)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.h::before{content:"显示差异";font-size:12px;display:block}
+.pf-row:nth-child(33)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.t::before{content:"折叠工具调用";font-size:13.5px}
+.pf-row:nth-child(33)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.h::before{content:"折叠区块";font-size:12px;display:block}
+.pf-row:nth-child(34)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.t::before{content:"展开思考";font-size:13.5px}
+.pf-row:nth-child(34)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.h::before{content:"展开思考过程";font-size:12px;display:block}
+.pf-row:nth-child(35)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.t::before{content:"输入框：纯文本或 Markdown";font-size:13.5px}
+.pf-row:nth-child(35)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.h::before{content:"输入框文字";font-size:12px;display:block}
+.pf-row:nth-child(36)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.t::before{content:"对话样式：Reader";font-size:13.5px}
+.pf-row:nth-child(36)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.h::before{content:"对话：阅读视图";font-size:12px;display:block}
+.pf-row:nth-child(37)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.t::before{content:"对话样式：Spine";font-size:13.5px}
+.pf-row:nth-child(37)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.h::before{content:"对话：主线视图";font-size:12px;display:block}
+.pf-row:nth-child(38)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.t::before{content:"对话样式：Console";font-size:13.5px}
+.pf-row:nth-child(38)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.h::before{content:"对话：控制台视图";font-size:12px;display:block}
+.pf-row:nth-child(39)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.t::before{content:"原生提示符";font-size:13.5px}
+.pf-row:nth-child(39)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.h::before{content:"原生提示符";font-size:12px;display:block}
+.pf-row:nth-child(40)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.t::before{content:"提示符样式…";font-size:13.5px}
+.pf-row:nth-child(40)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.h::before{content:"提示符样式";font-size:12px;display:block}
+.pf-row:nth-child(41)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.t::before{content:"提示符：切换配色";font-size:13.5px}
+.pf-row:nth-child(41)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.h::before{content:"提示符：配色";font-size:12px;display:block}
+.pf-row:nth-child(42)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.t::before{content:"提示符：切换填充";font-size:13.5px}
+.pf-row:nth-child(42)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.h::before{content:"提示符：填充";font-size:12px;display:block}
+.pf-row:nth-child(43)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.t::before{content:"提示符：切换形状";font-size:13.5px}
+.pf-row:nth-child(43)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.h::before{content:"提示符：形状";font-size:12px;display:block}
+.pf-row:nth-child(44)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.t::before{content:"提示符：切换外框";font-size:13.5px}
+.pf-row:nth-child(44)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.h::before{content:"提示符：边框";font-size:12px;display:block}
+.pf-row:nth-child(45)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.t::before{content:"提示符：切换外框线端";font-size:13.5px}
+.pf-row:nth-child(45)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.h::before{content:"提示符：行尾";font-size:12px;display:block}
+.pf-row:nth-child(46)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.t::before{content:"提示符：切换间距";font-size:13.5px}
+.pf-row:nth-child(46)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.h::before{content:"提示符：间距";font-size:12px;display:block}
+.pf-row:nth-child(47)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.t::before{content:"提示符：切换提示符字符";font-size:13.5px}
+.pf-row:nth-child(47)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.h::before{content:"提示符：字符";font-size:12px;display:block}
+.pf-row:nth-child(48)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.t::before{content:"提示符：切换分隔符";font-size:13.5px}
+.pf-row:nth-child(48)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.h::before{content:"提示符：分隔符";font-size:12px;display:block}
+.pf-row:nth-child(49)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.t::before{content:"提示符：切换 Git 格式";font-size:13.5px}
+.pf-row:nth-child(49)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.h::before{content:"提示符：Git 信息";font-size:12px;display:block}
+.pf-row:nth-child(50)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.t::before{content:"提示符：切换目录格式";font-size:13.5px}
+.pf-row:nth-child(50)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.h::before{content:"提示符：目录";font-size:12px;display:block}
+.pf-row:nth-child(51)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.t::before{content:"提示符：切换图标";font-size:13.5px}
+.pf-row:nth-child(51)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.h::before{content:"提示符：图标";font-size:12px;display:block}
+.pf-row:nth-child(52)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.t::before{content:"提示符：切换时钟";font-size:13.5px}
+.pf-row:nth-child(52)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.h::before{content:"提示符：时钟";font-size:12px;display:block}
+.pf-row:nth-child(53)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.t::before{content:"提示符片段…";font-size:13.5px}
+.pf-row:nth-child(53)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.h::before{content:"提示符分段";font-size:12px;display:block}
+.pf-row:nth-child(54)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.t::before{content:"折叠历史提示";font-size:13.5px}
+.pf-row:nth-child(54)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.h::before{content:"折叠提示符";font-size:12px;display:block}
+.pf-row:nth-child(55)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.t::before{content:"下一个布局";font-size:13.5px}
+.pf-row:nth-child(55)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.h::before{content:"下一个布局";font-size:12px;display:block}
+.pf-row:nth-child(56)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.t::before{content:"布局：侧栏";font-size:13.5px}
+.pf-row:nth-child(56)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.h::before{content:"布局：边栏";font-size:12px;display:block}
+.pf-row:nth-child(57)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.t::before{content:"布局：浮动";font-size:13.5px}
+.pf-row:nth-child(57)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.h::before{content:"布局：浮动";font-size:12px;display:block}
+.pf-row:nth-child(58)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.t::before{content:"布局：平铺";font-size:13.5px}
+.pf-row:nth-child(58)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.h::before{content:"布局：平铺";font-size:12px;display:block}
+.pf-row:nth-child(59)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.t::before{content:"布局：工作室";font-size:13.5px}
+.pf-row:nth-child(59)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.h::before{content:"布局：工作室";font-size:12px;display:block}
+.pf-row:nth-child(60)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.t::before{content:"设置…";font-size:13.5px}
+.pf-row:nth-child(60)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.h::before{content:"设置…";font-size:12px;display:block}
+.pf-row:nth-child(61)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.t::before{content:"切换安全键盘输入";font-size:13.5px}
+.pf-row:nth-child(61)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.h::before{content:"安全键盘输入";font-size:12px;display:block}
+.pf-row:nth-child(62)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.t::before{content:"桌面宠物（Clawdi）";font-size:13.5px}
+.pf-row:nth-child(62)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.h::before{content:"Clawdi";font-size:12px;display:block}
+.pf-row:nth-child(63)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.t::before{content:"打开 settings.json";font-size:13.5px}
+.pf-row:nth-child(63)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.h::before{content:"打开 settings.json";font-size:12px;display:block}
+.pf-row:nth-child(64)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.t::before{content:"重新加载设置";font-size:13.5px}
+.pf-row:nth-child(64)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.h::before{content:"重新加载设置";font-size:12px;display:block}
+.pf-row:nth-child(65)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.t::before{content:"重新加载插件";font-size:13.5px}
+.pf-row:nth-child(65)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.h::before{content:"重新加载插件";font-size:12px;display:block}
+.pf-row:nth-child(66)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.t::before{content:"打开日志与应用状态";font-size:13.5px}
+.pf-row:nth-child(66)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.h::before{content:"打开日志";font-size:12px;display:block}
+.pf-row:nth-child(67)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.t::before{content:"打开应用数据文件夹";font-size:13.5px}
+.pf-row:nth-child(67)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.h::before{content:"打开应用数据目录";font-size:12px;display:block}
+.pf-row:nth-child(68)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.t::before{content:"退出 Tern";font-size:13.5px}
+.pf-row:nth-child(68)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.h::before{content:"退出 Tern";font-size:12px;display:block}
+.pf-row:nth-child(69)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.t::before{content:"重启 Tern";font-size:13.5px}
+.pf-row:nth-child(69)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.h::before{content:"重启 Tern";font-size:12px;display:block}
+.pf-row:nth-child(70)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.t::before{content:"显示「需要处理」信息箱";font-size:13.5px}
+.pf-row:nth-child(70)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.h::before{content:"收件箱";font-size:12px;display:block}
+.pf-row:nth-child(71)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.t::before{content:"清空「需要处理」信息箱";font-size:13.5px}
+.pf-row:nth-child(71)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.h::before{content:"清空收件箱";font-size:12px;display:block}
+.pf-row:nth-child(72)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.t::before{content:"显示/隐藏文件";font-size:13.5px}
+.pf-row:nth-child(72)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.h::before{content:"显示/隐藏文件";font-size:12px;display:block}
+.pf-row:nth-child(73)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.t::before{content:"聚焦文件面板";font-size:13.5px}
+.pf-row:nth-child(73)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.h::before{content:"聚焦文件";font-size:12px;display:block}
+.pf-row:nth-child(74)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.t::before{content:"文件：定位当前文件";font-size:13.5px}
+.pf-row:nth-child(74)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.h::before{content:"定位当前文件";font-size:12px;display:block}
+.pf-row:nth-child(75)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.t::before{content:"文件：定位目录";font-size:13.5px}
+.pf-row:nth-child(75)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.h::before{content:"定位当前目录";font-size:12px;display:block}
+.pf-row:nth-child(76)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.t::before{content:"文件：固定文件夹 / 跟随块";font-size:13.5px}
+.pf-row:nth-child(76)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.h::before{content:"固定文件";font-size:12px;display:block}
+.pf-row:nth-child(77)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.t::before{content:"文件：打开文件夹…";font-size:13.5px}
+.pf-row:nth-child(77)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.h::before{content:"打开文件夹…";font-size:12px;display:block}
+.pf-row:nth-child(78)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(78)>.pf-lbl>.t::before{content:"文件：上传到远程文件夹…";font-size:13.5px}
+.pf-row:nth-child(78)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(78)>.pf-lbl>.h::before{content:"上传文件";font-size:12px;display:block}
+.pf-row:nth-child(79)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(79)>.pf-lbl>.t::before{content:"文件：下载到本机";font-size:13.5px}
+.pf-row:nth-child(79)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(79)>.pf-lbl>.h::before{content:"下载文件";font-size:12px;display:block}
+.pf-row:nth-child(80)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(80)>.pf-lbl>.t::before{content:"文件：筛选…";font-size:13.5px}
+.pf-row:nth-child(80)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(80)>.pf-lbl>.h::before{content:"过滤文件";font-size:12px;display:block}
+.pf-row:nth-child(81)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(81)>.pf-lbl>.t::before{content:"文件：全部折叠";font-size:13.5px}
+.pf-row:nth-child(81)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(81)>.pf-lbl>.h::before{content:"折叠全部文件";font-size:12px;display:block}
+.pf-row:nth-child(82)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(82)>.pf-lbl>.t::before{content:"文件：显示/隐藏隐藏文件";font-size:13.5px}
+.pf-row:nth-child(82)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(82)>.pf-lbl>.h::before{content:"显示/隐藏隐藏文件";font-size:12px;display:block}
+.pf-row:nth-child(83)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(83)>.pf-lbl>.t::before{content:"将块移到窗口…";font-size:13.5px}
+.pf-row:nth-child(83)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(83)>.pf-lbl>.h::before{content:"块移到窗口";font-size:12px;display:block}
+.pf-row:nth-child(84)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(84)>.pf-lbl>.t::before{content:"将标签页移到窗口…";font-size:13.5px}
+.pf-row:nth-child(84)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(84)>.pf-lbl>.h::before{content:"标签页移到窗口";font-size:12px;display:block}
+.pf-row:nth-child(85)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(85)>.pf-lbl>.t::before{content:"画中画";font-size:13.5px}
+.pf-row:nth-child(85)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(85)>.pf-lbl>.h::before{content:"画中画";font-size:12px;display:block}
+.pf-row:nth-child(86)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(86)>.pf-lbl>.t::before{content:"画中画覆盖…";font-size:13.5px}
+.pf-row:nth-child(86)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(86)>.pf-lbl>.h::before{content:"画中画置顶";font-size:12px;display:block}
+.pf-row:nth-child(87)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(87)>.pf-lbl>.t::before{content:"隐藏画中画";font-size:13.5px}
+.pf-row:nth-child(87)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(87)>.pf-lbl>.h::before{content:"收起全部画中画";font-size:12px;display:block}
+.pf-row:nth-child(88)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(88)>.pf-lbl>.t::before{content:"画中画停靠到左侧";font-size:13.5px}
+.pf-row:nth-child(88)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(88)>.pf-lbl>.h::before{content:"画中画停靠：左";font-size:12px;display:block}
+.pf-row:nth-child(89)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(89)>.pf-lbl>.t::before{content:"画中画停靠到右侧";font-size:13.5px}
+.pf-row:nth-child(89)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(89)>.pf-lbl>.h::before{content:"画中画停靠：右";font-size:12px;display:block}
+.pf-row:nth-child(90)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(90)>.pf-lbl>.t::before{content:"画中画停靠到上方";font-size:13.5px}
+.pf-row:nth-child(90)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(90)>.pf-lbl>.h::before{content:"画中画停靠：上";font-size:12px;display:block}
+.pf-row:nth-child(91)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(91)>.pf-lbl>.t::before{content:"画中画停靠到下方";font-size:13.5px}
+.pf-row:nth-child(91)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(91)>.pf-lbl>.h::before{content:"画中画停靠：下";font-size:12px;display:block}
+.pf-row:nth-child(92)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(92)>.pf-lbl>.t::before{content:"画中画移到左上";font-size:13.5px}
+.pf-row:nth-child(92)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(92)>.pf-lbl>.h::before{content:"画中画角落：左上";font-size:12px;display:block}
+.pf-row:nth-child(93)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(93)>.pf-lbl>.t::before{content:"画中画移到右上";font-size:13.5px}
+.pf-row:nth-child(93)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(93)>.pf-lbl>.h::before{content:"画中画角落：右上";font-size:12px;display:block}
+.pf-row:nth-child(94)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(94)>.pf-lbl>.t::before{content:"画中画移到左下";font-size:13.5px}
+.pf-row:nth-child(94)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(94)>.pf-lbl>.h::before{content:"画中画角落：左下";font-size:12px;display:block}
+.pf-row:nth-child(95)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(95)>.pf-lbl>.t::before{content:"画中画移到右下";font-size:13.5px}
+.pf-row:nth-child(95)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(95)>.pf-lbl>.h::before{content:"画中画角落：右下";font-size:12px;display:block}
+.pf-row:nth-child(96)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(96)>.pf-lbl>.t::before{content:"块标题栏：从不";font-size:13.5px}
+.pf-row:nth-child(96)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(96)>.pf-lbl>.h::before{content:"块标题：从不";font-size:12px;display:block}
+.pf-row:nth-child(97)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(97)>.pf-lbl>.t::before{content:"块标题栏：分屏时";font-size:13.5px}
+.pf-row:nth-child(97)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(97)>.pf-lbl>.h::before{content:"块标题：仅分屏";font-size:12px;display:block}
+.pf-row:nth-child(98)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(98)>.pf-lbl>.t::before{content:"块标题栏：始终";font-size:13.5px}
+.pf-row:nth-child(98)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(98)>.pf-lbl>.h::before{content:"块标题：总是";font-size:12px;display:block}
+.pf-row:nth-child(99)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(99)>.pf-lbl>.t::before{content:"编辑组件…";font-size:13.5px}
+.pf-row:nth-child(99)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(99)>.pf-lbl>.h::before{content:"编辑小组件";font-size:12px;display:block}
+.pf-row:nth-child(100)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(100)>.pf-lbl>.t::before{content:"组件栏样式：简洁";font-size:13.5px}
+.pf-row:nth-child(100)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(100)>.pf-lbl>.h::before{content:"小组件外观：朴素";font-size:12px;display:block}
+.pf-row:nth-child(101)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(101)>.pf-lbl>.t::before{content:"组件栏样式：胶囊";font-size:13.5px}
+.pf-row:nth-child(101)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(101)>.pf-lbl>.h::before{content:"小组件外观：胶囊";font-size:12px;display:block}
+.pf-row:nth-child(102)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(102)>.pf-lbl>.t::before{content:"组件栏样式：描边";font-size:13.5px}
+.pf-row:nth-child(102)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(102)>.pf-lbl>.h::before{content:"小组件外观：描边";font-size:12px;display:block}
+.pf-row:nth-child(103)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(103)>.pf-lbl>.t::before{content:"组件栏样式：分隔线";font-size:13.5px}
+.pf-row:nth-child(103)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(103)>.pf-lbl>.h::before{content:"小组件外观：分隔";font-size:12px;display:block}
+.pf-row:nth-child(104)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(104)>.pf-lbl>.t::before{content:"更改界面风格…";font-size:13.5px}
+.pf-row:nth-child(104)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(104)>.pf-lbl>.h::before{content:"界面风格";font-size:12px;display:block}
+.pf-row:nth-child(105)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(105)>.pf-lbl>.t::before{content:"截图";font-size:13.5px}
+.pf-row:nth-child(105)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(105)>.pf-lbl>.h::before{content:"截图";font-size:12px;display:block}
+.pf-row:nth-child(106)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(106)>.pf-lbl>.t::before{content:"调试：显示帧率";font-size:13.5px}
+.pf-row:nth-child(106)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(106)>.pf-lbl>.h::before{content:"显示帧率";font-size:12px;display:block}
+.pf-row:nth-child(107)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(107)>.pf-lbl>.t::before{content:"切换开发者工具";font-size:13.5px}
+.pf-row:nth-child(107)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(107)>.pf-lbl>.h::before{content:"开发者工具";font-size:12px;display:block}
+.pf-row:nth-child(108)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(108)>.pf-lbl>.t::before{content:"显示所有命令";font-size:13.5px}
+.pf-row:nth-child(108)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(108)>.pf-lbl>.h::before{content:"显示命令列表";font-size:12px;display:block}
+.pf-row:nth-child(109)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(109)>.pf-lbl>.t::before{content:"打开文件…";font-size:13.5px}
+.pf-row:nth-child(109)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(109)>.pf-lbl>.h::before{content:"打开文件…";font-size:12px;display:block}
+.pf-row:nth-child(110)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(110)>.pf-lbl>.t::before{content:"在项目中搜索…";font-size:13.5px}
+.pf-row:nth-child(110)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(110)>.pf-lbl>.h::before{content:"在项目中搜索";font-size:12px;display:block}
+.pf-row:nth-child(111)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(111)>.pf-lbl>.t::before{content:"新建笔记";font-size:13.5px}
+.pf-row:nth-child(111)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(111)>.pf-lbl>.h::before{content:"新建笔记";font-size:12px;display:block}
+.pf-row:nth-child(112)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(112)>.pf-lbl>.t::before{content:"会话备注";font-size:13.5px}
+.pf-row:nth-child(112)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(112)>.pf-lbl>.h::before{content:"会话笔记";font-size:12px;display:block}
+.pf-row:nth-child(113)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(113)>.pf-lbl>.t::before{content:"块备注";font-size:13.5px}
+.pf-row:nth-child(113)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(113)>.pf-lbl>.h::before{content:"块笔记";font-size:12px;display:block}
+.pf-row:nth-child(114)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(114)>.pf-lbl>.t::before{content:"重新打开已关闭的笔记";font-size:13.5px}
+.pf-row:nth-child(114)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(114)>.pf-lbl>.h::before{content:"重开笔记";font-size:12px;display:block}
+.pf-row:nth-child(115)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(115)>.pf-lbl>.t::before{content:"保存";font-size:13.5px}
+.pf-row:nth-child(115)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(115)>.pf-lbl>.h::before{content:"保存";font-size:12px;display:block}
+.pf-row:nth-child(116)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(116)>.pf-lbl>.t::before{content:"另存为…";font-size:13.5px}
+.pf-row:nth-child(116)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(116)>.pf-lbl>.h::before{content:"另存为";font-size:12px;display:block}
+.pf-row:nth-child(117)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(117)>.pf-lbl>.t::before{content:"还原到已保存";font-size:13.5px}
+.pf-row:nth-child(117)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(117)>.pf-lbl>.h::before{content:"还原";font-size:12px;display:block}
+.pf-row:nth-child(118)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(118)>.pf-lbl>.t::before{content:"切换 Markdown 源码";font-size:13.5px}
+.pf-row:nth-child(118)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(118)>.pf-lbl>.h::before{content:"切换源码视图";font-size:12px;display:block}
+.pf-row:nth-child(119)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(119)>.pf-lbl>.t::before{content:"转到行…";font-size:13.5px}
+.pf-row:nth-child(119)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(119)>.pf-lbl>.h::before{content:"转到行";font-size:12px;display:block}
+.pf-row:nth-child(120)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(120)>.pf-lbl>.t::before{content:"自动换行";font-size:13.5px}
+.pf-row:nth-child(120)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(120)>.pf-lbl>.h::before{content:"切换自动换行";font-size:12px;display:block}
+.pf-row:nth-child(121)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(121)>.pf-lbl>.t::before{content:"下一处改动";font-size:13.5px}
+.pf-row:nth-child(121)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(121)>.pf-lbl>.h::before{content:"下一个变更";font-size:12px;display:block}
+.pf-row:nth-child(122)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(122)>.pf-lbl>.t::before{content:"上一处改动";font-size:13.5px}
+.pf-row:nth-child(122)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(122)>.pf-lbl>.h::before{content:"上一个变更";font-size:12px;display:block}
+.pf-row:nth-child(123)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(123)>.pf-lbl>.t::before{content:"全部折叠";font-size:13.5px}
+.pf-row:nth-child(123)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(123)>.pf-lbl>.h::before{content:"全部折叠";font-size:12px;display:block}
+.pf-row:nth-child(124)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(124)>.pf-lbl>.t::before{content:"全部展开";font-size:13.5px}
+.pf-row:nth-child(124)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(124)>.pf-lbl>.h::before{content:"全部展开";font-size:12px;display:block}
+.pf-row:nth-child(125)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(125)>.pf-lbl>.t::before{content:"以指定编码重新打开…";font-size:13.5px}
+.pf-row:nth-child(125)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(125)>.pf-lbl>.h::before{content:"用指定编码重新打开…";font-size:12px;display:block}
+.pf-row:nth-child(126)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(126)>.pf-lbl>.t::before{content:"转换换行符…";font-size:13.5px}
+.pf-row:nth-child(126)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(126)>.pf-lbl>.h::before{content:"换行符";font-size:12px;display:block}
+.pf-row:nth-child(127)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(127)>.pf-lbl>.t::before{content:"浏览文件夹…";font-size:13.5px}
+.pf-row:nth-child(127)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(127)>.pf-lbl>.h::before{content:"浏览文件夹…";font-size:12px;display:block}
+.pf-row:nth-child(128)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(128)>.pf-lbl>.t::before{content:"在访达中显示文件";font-size:13.5px}
+.pf-row:nth-child(128)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(128)>.pf-lbl>.h::before{content:"在文件管理器中显示";font-size:12px;display:block}
+.pf-row:nth-child(129)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(129)>.pf-lbl>.t::before{content:"用默认程序打开文件";font-size:13.5px}
+.pf-row:nth-child(129)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(129)>.pf-lbl>.h::before{content:"用外部程序打开";font-size:12px;display:block}
+.pf-row:nth-child(130)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(130)>.pf-lbl>.t::before{content:"复制文件路径";font-size:13.5px}
+.pf-row:nth-child(130)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(130)>.pf-lbl>.h::before{content:"复制文件路径";font-size:12px;display:block}
+.pf-row:nth-child(131)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(131)>.pf-lbl>.t::before{content:"将选区发送给智能体";font-size:13.5px}
+.pf-row:nth-child(131)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(131)>.pf-lbl>.h::before{content:"发送选区给智能体";font-size:12px;display:block}
+.pf-row:nth-child(132)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(132)>.pf-lbl>.t::before{content:"登录 Stencil";font-size:13.5px}
+.pf-row:nth-child(132)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(132)>.pf-lbl>.h::before{content:"登录";font-size:12px;display:block}
+.pf-row:nth-child(133)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(133)>.pf-lbl>.t::before{content:"退出 Stencil 登录";font-size:13.5px}
+.pf-row:nth-child(133)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(133)>.pf-lbl>.h::before{content:"退出登录";font-size:12px;display:block}
+.pf-row:nth-child(134)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(134)>.pf-lbl>.t::before{content:"检查更新";font-size:13.5px}
+.pf-row:nth-child(134)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(134)>.pf-lbl>.h::before{content:"检查更新";font-size:12px;display:block}
+.pf-row:nth-child(135)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(135)>.pf-lbl>.t::before{content:"新功能：更新日志";font-size:13.5px}
+.pf-row:nth-child(135)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(135)>.pf-lbl>.h::before{content:"更新日志";font-size:12px;display:block}
+.pf-row:nth-child(136)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(136)>.pf-lbl>.t::before{content:"帮助与文档";font-size:13.5px}
+.pf-row:nth-child(136)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(136)>.pf-lbl>.h::before{content:"帮助与文档";font-size:12px;display:block}
+.pf-row:nth-child(137)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(137)>.pf-lbl>.t::before{content:"重启以更新";font-size:13.5px}
+.pf-row:nth-child(137)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(137)>.pf-lbl>.h::before{content:"重启以更新";font-size:12px;display:block}
+.pf-row:nth-child(138)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(138)>.pf-lbl>.t::before{content:"重启会话守护进程";font-size:13.5px}
+.pf-row:nth-child(138)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(138)>.pf-lbl>.h::before{content:"重启会话守护进程";font-size:12px;display:block}
+.pf-row:nth-child(139)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(139)>.pf-lbl>.t::before{content:"安装 omp";font-size:13.5px}
+.pf-row:nth-child(139)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(139)>.pf-lbl>.h::before{content:"安装 omp";font-size:12px;display:block}
+.pf-row:nth-child(140)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(140)>.pf-lbl>.t::before{content:"检查 omp 更新";font-size:13.5px}
+.pf-row:nth-child(140)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(140)>.pf-lbl>.h::before{content:"检查 omp 更新";font-size:12px;display:block}
+.pf-row:nth-child(141)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(141)>.pf-lbl>.t::before{content:"停止托管 omp";font-size:13.5px}
+.pf-row:nth-child(141)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(141)>.pf-lbl>.h::before{content:"停止管理 omp";font-size:12px;display:block}
+.pf-row:nth-child(142)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(142)>.pf-lbl>.t::before{content:"安装 ovnfs";font-size:13.5px}
+.pf-row:nth-child(142)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(142)>.pf-lbl>.h::before{content:"安装 ovnfs";font-size:12px;display:block}
+.pf-row:nth-child(143)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(143)>.pf-lbl>.t::before{content:"检查 ovnfs 更新";font-size:13.5px}
+.pf-row:nth-child(143)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(143)>.pf-lbl>.h::before{content:"检查 ovnfs 更新";font-size:12px;display:block}
+.pf-row:nth-child(144)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(144)>.pf-lbl>.t::before{content:"停止托管 ovnfs";font-size:13.5px}
+.pf-row:nth-child(144)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(144)>.pf-lbl>.h::before{content:"停止管理 ovnfs";font-size:12px;display:block}
+.pf-row:nth-child(145)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(145)>.pf-lbl>.t::before{content:"安装 ABKit";font-size:13.5px}
+.pf-row:nth-child(145)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(145)>.pf-lbl>.h::before{content:"安装 abkit";font-size:12px;display:block}
+.pf-row:nth-child(146)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(146)>.pf-lbl>.t::before{content:"检查 ABKit 更新";font-size:13.5px}
+.pf-row:nth-child(146)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(146)>.pf-lbl>.h::before{content:"检查 abkit 更新";font-size:12px;display:block}
+.pf-row:nth-child(147)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(147)>.pf-lbl>.t::before{content:"停止托管 ABKit";font-size:13.5px}
+.pf-row:nth-child(147)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(147)>.pf-lbl>.h::before{content:"停止管理 abkit";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(9){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"上方插入换行";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"选择所有匹配项";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"向左子词";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"向右子词";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"向后删除子词";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"合并行";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"添加下一个匹配项";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"复制块";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"向上复制行";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"向下复制行";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"缩小选区";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"扩展选区";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"复制";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"在编辑器与文本框中";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"粘贴";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"在编辑器与文本框中";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"查找下一个";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"在代码、十六进制视图与 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"查找上一个";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"在代码、十六进制视图与 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"重做";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"删除线";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"链接";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"用选区查找";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"在代码、十六进制视图与 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"切换自动换行";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"下一处改动";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"上一处改动";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"粗体";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"撤销";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"下移行";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"下移块";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"上移行";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"上移块";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(30)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.t::before{content:"强制换行";font-size:13.5px}
+.pf-row:nth-child(30)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(31)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.t::before{content:"离开内嵌块";font-size:13.5px}
+.pf-row:nth-child(31)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(32)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.t::before{content:"下方插入换行";font-size:13.5px}
+.pf-row:nth-child(32)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(33)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.t::before{content:"向上扩展块";font-size:13.5px}
+.pf-row:nth-child(33)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(34)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.t::before{content:"向下扩展块";font-size:13.5px}
+.pf-row:nth-child(34)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(35)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.t::before{content:"查找替换";font-size:13.5px}
+.pf-row:nth-child(35)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.h::before{content:"在代码、十六进制视图与 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(36)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.t::before{content:"增加缩进";font-size:13.5px}
+.pf-row:nth-child(36)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(37)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.t::before{content:"减少缩进";font-size:13.5px}
+.pf-row:nth-child(37)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(38)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.t::before{content:"减少缩进";font-size:13.5px}
+.pf-row:nth-child(38)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(39)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.t::before{content:"在上方添加光标";font-size:13.5px}
+.pf-row:nth-child(39)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(40)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.t::before{content:"在下方添加光标";font-size:13.5px}
+.pf-row:nth-child(40)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(41)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.t::before{content:"跳过匹配项";font-size:13.5px}
+.pf-row:nth-child(41)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(42)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.t::before{content:"选择行";font-size:13.5px}
+.pf-row:nth-child(42)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(43)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.t::before{content:"光标置于行尾";font-size:13.5px}
+.pf-row:nth-child(43)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(44)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.t::before{content:"切换注释";font-size:13.5px}
+.pf-row:nth-child(44)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(45)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.t::before{content:"转义";font-size:13.5px}
+.pf-row:nth-child(45)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(46)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.t::before{content:"查找";font-size:13.5px}
+.pf-row:nth-child(46)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.h::before{content:"在代码、十六进制视图与 Markdown 中";font-size:12px;display:block}
+.pf-row:nth-child(47)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.t::before{content:"转到行";font-size:13.5px}
+.pf-row:nth-child(47)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(48)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.t::before{content:"删除至行尾";font-size:13.5px}
+.pf-row:nth-child(48)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(49)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.t::before{content:"复制到寄存器";font-size:13.5px}
+.pf-row:nth-child(49)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(50)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.t::before{content:"向左选择子词";font-size:13.5px}
+.pf-row:nth-child(50)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(51)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.t::before{content:"向右选择子词";font-size:13.5px}
+.pf-row:nth-child(51)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(52)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.t::before{content:"向前删除子词";font-size:13.5px}
+.pf-row:nth-child(52)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(53)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.t::before{content:"折叠";font-size:13.5px}
+.pf-row:nth-child(53)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(54)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.t::before{content:"展开";font-size:13.5px}
+.pf-row:nth-child(54)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(55)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.t::before{content:"切换折叠";font-size:13.5px}
+.pf-row:nth-child(55)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(56)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.t::before{content:"全部折叠";font-size:13.5px}
+.pf-row:nth-child(56)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(57)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.t::before{content:"全部展开";font-size:13.5px}
+.pf-row:nth-child(57)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.h::before{content:"在代码与十六进制视图中";font-size:12px;display:block}
+.pf-row:nth-child(58)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.t::before{content:"斜体";font-size:13.5px}
+.pf-row:nth-child(58)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.h::before{content:"在渲染后的 Markdown 中";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(10){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"复制到 SQL 编辑器";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"复制含表头";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"编辑单元格：复制十六进制与 ASCII";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"筛选此列";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"查找下一个";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"查找上一个";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"放大 SQL 编辑器";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"缩小 SQL 编辑器";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"重置 SQL 编辑器缩放";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"在任意列筛选";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"写入改动";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"编辑单元格面板";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"粗体";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"撤销上一次改动";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"删除所选对象";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"删除记录或清空单元格";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"清空单元格";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"浏览所选表";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"刷新结构树";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"执行全部/所选 SQL";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"保存 pragma";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"编辑单元格：应用";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"全选";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"查找与替换";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"绘图面板";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"SQL 日志";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"重置 pragma 编辑";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"编辑单元格：放弃编辑";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"查找";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(30)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.t::before{content:"结构面板";font-size:13.5px}
+.pf-row:nth-child(30)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(31)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.t::before{content:"显示数据库结构";font-size:13.5px}
+.pf-row:nth-child(31)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(32)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.t::before{content:"浏览数据";font-size:13.5px}
+.pf-row:nth-child(32)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(33)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.t::before{content:"执行 SQL";font-size:13.5px}
+.pf-row:nth-child(33)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(34)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.t::before{content:"编辑 pragma";font-size:13.5px}
+.pf-row:nth-child(34)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(35)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.t::before{content:"刷新";font-size:13.5px}
+.pf-row:nth-child(35)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(36)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.t::before{content:"重新加载 pragma";font-size:13.5px}
+.pf-row:nth-child(36)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(37)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.t::before{content:"复制 CREATE 语句";font-size:13.5px}
+.pf-row:nth-child(37)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(38)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.t::before{content:"复制名称";font-size:13.5px}
+.pf-row:nth-child(38)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(39)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.t::before{content:"复制为 SQL";font-size:13.5px}
+.pf-row:nth-child(39)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(40)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.t::before{content:"所选对象的菜单";font-size:13.5px}
+.pf-row:nth-child(40)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(41)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.t::before{content:"上一个表";font-size:13.5px}
+.pf-row:nth-child(41)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(42)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.t::before{content:"聚焦 SQL 编辑器";font-size:13.5px}
+.pf-row:nth-child(42)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(43)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.t::before{content:"下一个表";font-size:13.5px}
+.pf-row:nth-child(43)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(44)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.t::before{content:"聚焦 SQL 结果";font-size:13.5px}
+.pf-row:nth-child(44)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(45)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.t::before{content:"复制记录";font-size:13.5px}
+.pf-row:nth-child(45)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(46)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.t::before{content:"复制上方单元格";font-size:13.5px}
+.pf-row:nth-child(46)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(47)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.t::before{content:"设为 NULL";font-size:13.5px}
+.pf-row:nth-child(47)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(48)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.t::before{content:"将值设为 NULL";font-size:13.5px}
+.pf-row:nth-child(48)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(49)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.t::before{content:"删除记录";font-size:13.5px}
+.pf-row:nth-child(49)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(50)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.t::before{content:"剪切";font-size:13.5px}
+.pf-row:nth-child(50)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(51)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.t::before{content:"下划线";font-size:13.5px}
+.pf-row:nth-child(51)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(52)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.t::before{content:"执行当前行";font-size:13.5px}
+.pf-row:nth-child(52)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(53)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.t::before{content:"停止 SQL 执行";font-size:13.5px}
+.pf-row:nth-child(53)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(54)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.t::before{content:"新建 SQL 标签页";font-size:13.5px}
+.pf-row:nth-child(54)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(55)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.t::before{content:"打开 SQL 文件";font-size:13.5px}
+.pf-row:nth-child(55)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(56)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.t::before{content:"关闭 SQL 标签页";font-size:13.5px}
+.pf-row:nth-child(56)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(57)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.t::before{content:"下一个 SQL 标签页";font-size:13.5px}
+.pf-row:nth-child(57)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(58)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.t::before{content:"上一个 SQL 标签页";font-size:13.5px}
+.pf-row:nth-child(58)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(59)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.t::before{content:"补全 SQL";font-size:13.5px}
+.pf-row:nth-child(59)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(60)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.t::before{content:"全部保存";font-size:13.5px}
+.pf-row:nth-child(60)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(61)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.t::before{content:"打开最近的数据库 1";font-size:13.5px}
+.pf-row:nth-child(61)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(62)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.t::before{content:"打开最近的数据库 2";font-size:13.5px}
+.pf-row:nth-child(62)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(63)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.t::before{content:"打开最近的数据库 3";font-size:13.5px}
+.pf-row:nth-child(63)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(64)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.t::before{content:"打开最近的数据库 4";font-size:13.5px}
+.pf-row:nth-child(64)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(65)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.t::before{content:"打开最近的数据库 5";font-size:13.5px}
+.pf-row:nth-child(65)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(66)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.t::before{content:"打开最近的数据库 6";font-size:13.5px}
+.pf-row:nth-child(66)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(67)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.t::before{content:"打开最近的数据库 7";font-size:13.5px}
+.pf-row:nth-child(67)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(68)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.t::before{content:"打开最近的数据库 8";font-size:13.5px}
+.pf-row:nth-child(68)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(69)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.t::before{content:"打开最近的数据库 9";font-size:13.5px}
+.pf-row:nth-child(69)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(70)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.t::before{content:"打开最近的数据库 1（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(70)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(71)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.t::before{content:"打开最近的数据库 2（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(71)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(72)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.t::before{content:"打开最近的数据库 3（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(72)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(73)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.t::before{content:"打开最近的数据库 4（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(73)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(74)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.t::before{content:"打开最近的数据库 5（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(74)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(75)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.t::before{content:"打开最近的数据库 6（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(75)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(76)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.t::before{content:"打开最近的数据库 7（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(76)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(77)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.t::before{content:"打开最近的数据库 8（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(77)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(78)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(78)>.pf-lbl>.t::before{content:"打开最近的数据库 9（以相反只读模式）";font-size:13.5px}
+.pf-row:nth-child(78)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(78)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(79)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(79)>.pf-lbl>.t::before{content:"还原改动";font-size:13.5px}
+.pf-row:nth-child(79)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(79)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(80)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(80)>.pf-lbl>.t::before{content:"以只读/可写重新打开";font-size:13.5px}
+.pf-row:nth-child(80)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(80)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(81)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(81)>.pf-lbl>.t::before{content:"关闭数据库";font-size:13.5px}
+.pf-row:nth-child(81)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(81)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(82)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(82)>.pf-lbl>.t::before{content:"修改所选对象";font-size:13.5px}
+.pf-row:nth-child(82)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(82)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(83)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(83)>.pf-lbl>.t::before{content:"在结构树中显示行数";font-size:13.5px}
+.pf-row:nth-child(83)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(83)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(84)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(84)>.pf-lbl>.t::before{content:"展开所有对象";font-size:13.5px}
+.pf-row:nth-child(84)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(84)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(85)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(85)>.pf-lbl>.t::before{content:"折叠所有对象";font-size:13.5px}
+.pf-row:nth-child(85)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(85)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(86)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(86)>.pf-lbl>.t::before{content:"新建数据浏览器";font-size:13.5px}
+.pf-row:nth-child(86)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(86)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(87)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(87)>.pf-lbl>.t::before{content:"重命名数据浏览器";font-size:13.5px}
+.pf-row:nth-child(87)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(87)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(88)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(88)>.pf-lbl>.t::before{content:"关闭数据浏览器";font-size:13.5px}
+.pf-row:nth-child(88)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(88)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(89)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(89)>.pf-lbl>.t::before{content:"新建记录";font-size:13.5px}
+.pf-row:nth-child(89)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(89)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(90)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(90)>.pf-lbl>.t::before{content:"插入值";font-size:13.5px}
+.pf-row:nth-child(90)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(90)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(91)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(91)>.pf-lbl>.t::before{content:"编辑单元格";font-size:13.5px}
+.pf-row:nth-child(91)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(91)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(92)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(92)>.pf-lbl>.t::before{content:"替换";font-size:13.5px}
+.pf-row:nth-child(92)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(92)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(93)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(93)>.pf-lbl>.t::before{content:"全部替换";font-size:13.5px}
+.pf-row:nth-child(93)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(93)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(94)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(94)>.pf-lbl>.t::before{content:"按内容调整行高";font-size:13.5px}
+.pf-row:nth-child(94)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(94)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(95)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(95)>.pf-lbl>.t::before{content:"第一页";font-size:13.5px}
+.pf-row:nth-child(95)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(95)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(96)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(96)>.pf-lbl>.t::before{content:"上一页";font-size:13.5px}
+.pf-row:nth-child(96)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(96)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(97)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(97)>.pf-lbl>.t::before{content:"下一页";font-size:13.5px}
+.pf-row:nth-child(97)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(97)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(98)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(98)>.pf-lbl>.t::before{content:"最后一页";font-size:13.5px}
+.pf-row:nth-child(98)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(98)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(99)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(99)>.pf-lbl>.t::before{content:"转到行";font-size:13.5px}
+.pf-row:nth-child(99)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(99)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(100)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(100)>.pf-lbl>.t::before{content:"清除筛选";font-size:13.5px}
+.pf-row:nth-child(100)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(100)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(101)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(101)>.pf-lbl>.t::before{content:"清除排序";font-size:13.5px}
+.pf-row:nth-child(101)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(101)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(102)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(102)>.pf-lbl>.t::before{content:"查找列";font-size:13.5px}
+.pf-row:nth-child(102)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(102)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(103)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(103)>.pf-lbl>.t::before{content:"显示 rowid 列";font-size:13.5px}
+.pf-row:nth-child(103)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(103)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(104)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(104)>.pf-lbl>.t::before{content:"冻结到此列";font-size:13.5px}
+.pf-row:nth-child(104)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(104)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(105)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(105)>.pf-lbl>.t::before{content:"隐藏列";font-size:13.5px}
+.pf-row:nth-child(105)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(105)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(106)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(106)>.pf-lbl>.t::before{content:"显示所有列";font-size:13.5px}
+.pf-row:nth-child(106)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(106)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(107)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(107)>.pf-lbl>.t::before{content:"选择列";font-size:13.5px}
+.pf-row:nth-child(107)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(107)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(108)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(108)>.pf-lbl>.t::before{content:"解锁视图编辑";font-size:13.5px}
+.pf-row:nth-child(108)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(108)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(109)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(109)>.pf-lbl>.t::before{content:"编辑显示格式";font-size:13.5px}
+.pf-row:nth-child(109)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(109)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(110)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(110)>.pf-lbl>.t::before{content:"设置编码";font-size:13.5px}
+.pf-row:nth-child(110)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(110)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(111)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(111)>.pf-lbl>.t::before{content:"为所有表设置编码";font-size:13.5px}
+.pf-row:nth-child(111)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(111)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(112)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(112)>.pf-lbl>.t::before{content:"复制列名";font-size:13.5px}
+.pf-row:nth-child(112)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(112)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(113)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(113)>.pf-lbl>.t::before{content:"编辑条件格式";font-size:13.5px}
+.pf-row:nth-child(113)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(113)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(114)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(114)>.pf-lbl>.t::before{content:"格式工具栏";font-size:13.5px}
+.pf-row:nth-child(114)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(114)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(115)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(115)>.pf-lbl>.t::before{content:"斜体";font-size:13.5px}
+.pf-row:nth-child(115)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(115)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(116)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(116)>.pf-lbl>.t::before{content:"左对齐";font-size:13.5px}
+.pf-row:nth-child(116)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(116)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(117)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(117)>.pf-lbl>.t::before{content:"居中对齐";font-size:13.5px}
+.pf-row:nth-child(117)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(117)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(118)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(118)>.pf-lbl>.t::before{content:"右对齐";font-size:13.5px}
+.pf-row:nth-child(118)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(118)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(119)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(119)>.pf-lbl>.t::before{content:"两端对齐";font-size:13.5px}
+.pf-row:nth-child(119)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(119)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(120)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(120)>.pf-lbl>.t::before{content:"清除格式";font-size:13.5px}
+.pf-row:nth-child(120)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(120)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(121)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(121)>.pf-lbl>.t::before{content:"将当前筛选保存为视图";font-size:13.5px}
+.pf-row:nth-child(121)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(121)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(122)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(122)>.pf-lbl>.t::before{content:"将筛选数据导出为 CSV";font-size:13.5px}
+.pf-row:nth-child(122)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(122)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(123)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(123)>.pf-lbl>.t::before{content:"将筛选数据导出为 JSON";font-size:13.5px}
+.pf-row:nth-child(123)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(123)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(124)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(124)>.pf-lbl>.t::before{content:"保存 SQL 文件";font-size:13.5px}
+.pf-row:nth-child(124)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(124)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(125)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(125)>.pf-lbl>.t::before{content:"SQL 文件另存为";font-size:13.5px}
+.pf-row:nth-child(125)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(125)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(126)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(126)>.pf-lbl>.t::before{content:"重命名 SQL 标签页";font-size:13.5px}
+.pf-row:nth-child(126)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(126)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(127)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(127)>.pf-lbl>.t::before{content:"复制 SQL 标签页";font-size:13.5px}
+.pf-row:nth-child(127)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(127)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(128)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(128)>.pf-lbl>.t::before{content:"复制结果含表头";font-size:13.5px}
+.pf-row:nth-child(128)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(128)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(129)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(129)>.pf-lbl>.t::before{content:"将结果复制为 SQL";font-size:13.5px}
+.pf-row:nth-child(129)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(129)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(130)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(130)>.pf-lbl>.t::before{content:"将结果导出为 CSV";font-size:13.5px}
+.pf-row:nth-child(130)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(130)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(131)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(131)>.pf-lbl>.t::before{content:"将结果导出为 JSON";font-size:13.5px}
+.pf-row:nth-child(131)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(131)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(132)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(132)>.pf-lbl>.t::before{content:"将结果保存为视图";font-size:13.5px}
+.pf-row:nth-child(132)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(132)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(133)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(133)>.pf-lbl>.t::before{content:"结果显示在编辑器旁";font-size:13.5px}
+.pf-row:nth-child(133)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(133)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(134)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(134)>.pf-lbl>.t::before{content:"编辑单元格：设为 NULL";font-size:13.5px}
+.pf-row:nth-child(134)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(134)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(135)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(135)>.pf-lbl>.t::before{content:"编辑单元格：从文件导入";font-size:13.5px}
+.pf-row:nth-child(135)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(135)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(136)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(136)>.pf-lbl>.t::before{content:"编辑单元格：保存文件引用";font-size:13.5px}
+.pf-row:nth-child(136)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(136)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(137)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(137)>.pf-lbl>.t::before{content:"编辑单元格：导出到文件";font-size:13.5px}
+.pf-row:nth-child(137)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(137)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(138)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(138)>.pf-lbl>.t::before{content:"编辑单元格：导出十六进制转储";font-size:13.5px}
+.pf-row:nth-child(138)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(138)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(139)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(139)>.pf-lbl>.t::before{content:"编辑单元格：用外部程序打开";font-size:13.5px}
+.pf-row:nth-child(139)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(139)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(140)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(140)>.pf-lbl>.t::before{content:"编辑单元格：用默认程序或浏览器打开";font-size:13.5px}
+.pf-row:nth-child(140)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(140)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(141)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(141)>.pf-lbl>.t::before{content:"编辑单元格：覆盖模式";font-size:13.5px}
+.pf-row:nth-child(141)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(141)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(142)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(142)>.pf-lbl>.t::before{content:"编辑单元格：自动换行";font-size:13.5px}
+.pf-row:nth-child(142)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(142)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(143)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(143)>.pf-lbl>.t::before{content:"编辑单元格：自动格式化";font-size:13.5px}
+.pf-row:nth-child(143)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(143)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(144)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(144)>.pf-lbl>.t::before{content:"编辑单元格：排序键";font-size:13.5px}
+.pf-row:nth-child(144)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(144)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(145)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(145)>.pf-lbl>.t::before{content:"编辑单元格：自动切换模式";font-size:13.5px}
+.pf-row:nth-child(145)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(145)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(146)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(146)>.pf-lbl>.t::before{content:"编辑单元格：聚焦编辑器";font-size:13.5px}
+.pf-row:nth-child(146)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(146)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(147)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(147)>.pf-lbl>.t::before{content:"编辑单元格：文本模式";font-size:13.5px}
+.pf-row:nth-child(147)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(147)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(148)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(148)>.pf-lbl>.t::before{content:"编辑单元格：从右至左文本模式";font-size:13.5px}
+.pf-row:nth-child(148)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(148)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(149)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(149)>.pf-lbl>.t::before{content:"编辑单元格：二进制模式";font-size:13.5px}
+.pf-row:nth-child(149)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(149)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(150)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(150)>.pf-lbl>.t::before{content:"编辑单元格：图片模式";font-size:13.5px}
+.pf-row:nth-child(150)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(150)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(151)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(151)>.pf-lbl>.t::before{content:"编辑单元格：JSON 模式";font-size:13.5px}
+.pf-row:nth-child(151)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(151)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(152)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(152)>.pf-lbl>.t::before{content:"编辑单元格：XML 模式";font-size:13.5px}
+.pf-row:nth-child(152)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(152)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(153)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(153)>.pf-lbl>.t::before{content:"编辑单元格：SVG 模式";font-size:13.5px}
+.pf-row:nth-child(153)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(153)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(154)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(154)>.pf-lbl>.t::before{content:"编辑单元格：求值模式";font-size:13.5px}
+.pf-row:nth-child(154)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(154)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(155)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(155)>.pf-lbl>.t::before{content:"绘图：复制图片";font-size:13.5px}
+.pf-row:nth-child(155)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(155)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(156)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(156)>.pf-lbl>.t::before{content:"绘图：保存为 PNG、JPG 或 SVG";font-size:13.5px}
+.pf-row:nth-child(156)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(156)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(157)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(157)>.pf-lbl>.t::before{content:"绘图：加载全部数据";font-size:13.5px}
+.pf-row:nth-child(157)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(157)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(158)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(158)>.pf-lbl>.t::before{content:"绘图：重置视图";font-size:13.5px}
+.pf-row:nth-child(158)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(158)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(159)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(159)>.pf-lbl>.t::before{content:"绘图：显示图例";font-size:13.5px}
+.pf-row:nth-child(159)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(159)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(160)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(160)>.pf-lbl>.t::before{content:"绘图：堆叠柱状图";font-size:13.5px}
+.pf-row:nth-child(160)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(160)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(161)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(161)>.pf-lbl>.t::before{content:"绘图：固定数字格式";font-size:13.5px}
+.pf-row:nth-child(161)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(161)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(162)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(162)>.pf-lbl>.t::before{content:"绘图：对数刻度（X）";font-size:13.5px}
+.pf-row:nth-child(162)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(162)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(163)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(163)>.pf-lbl>.t::before{content:"绘图：对数刻度（Y）";font-size:13.5px}
+.pf-row:nth-child(163)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(163)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(164)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(164)>.pf-lbl>.t::before{content:"创建表";font-size:13.5px}
+.pf-row:nth-child(164)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(164)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(165)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(165)>.pf-lbl>.t::before{content:"修改表";font-size:13.5px}
+.pf-row:nth-child(165)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(165)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(166)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(166)>.pf-lbl>.t::before{content:"创建索引";font-size:13.5px}
+.pf-row:nth-child(166)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(166)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(167)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(167)>.pf-lbl>.t::before{content:"从 CSV 文件导入表";font-size:13.5px}
+.pf-row:nth-child(167)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(167)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(168)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(168)>.pf-lbl>.t::before{content:"从剪贴板 CSV 数据导入表";font-size:13.5px}
+.pf-row:nth-child(168)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(168)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(169)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(169)>.pf-lbl>.t::before{content:"从 SQL 文件导入数据库";font-size:13.5px}
+.pf-row:nth-child(169)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(169)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(170)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(170)>.pf-lbl>.t::before{content:"将表导出为 CSV 文件";font-size:13.5px}
+.pf-row:nth-child(170)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(170)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(171)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(171)>.pf-lbl>.t::before{content:"将表导出为 JSON";font-size:13.5px}
+.pf-row:nth-child(171)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(171)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(172)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(172)>.pf-lbl>.t::before{content:"将数据库导出为 SQL 文件";font-size:13.5px}
+.pf-row:nth-child(172)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(172)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(173)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(173)>.pf-lbl>.t::before{content:"压缩数据库";font-size:13.5px}
+.pf-row:nth-child(173)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(173)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(174)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(174)>.pf-lbl>.t::before{content:"完整性检查";font-size:13.5px}
+.pf-row:nth-child(174)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(174)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(175)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(175)>.pf-lbl>.t::before{content:"快速完整性检查";font-size:13.5px}
+.pf-row:nth-child(175)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(175)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(176)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(176)>.pf-lbl>.t::before{content:"外键检查";font-size:13.5px}
+.pf-row:nth-child(176)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(176)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(177)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(177)>.pf-lbl>.t::before{content:"优化数据库";font-size:13.5px}
+.pf-row:nth-child(177)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(177)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(178)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(178)>.pf-lbl>.t::before{content:"在 SQL 标签页中显示行数";font-size:13.5px}
+.pf-row:nth-child(178)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(178)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(179)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(179)>.pf-lbl>.t::before{content:"加载扩展";font-size:13.5px}
+.pf-row:nth-child(179)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(179)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(180)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(180)>.pf-lbl>.t::before{content:"附加数据库";font-size:13.5px}
+.pf-row:nth-child(180)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(180)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(181)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(181)>.pf-lbl>.t::before{content:"分离数据库";font-size:13.5px}
+.pf-row:nth-child(181)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(181)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(182)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(182)>.pf-lbl>.t::before{content:"打开项目";font-size:13.5px}
+.pf-row:nth-child(182)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(182)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(183)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(183)>.pf-lbl>.t::before{content:"保存项目";font-size:13.5px}
+.pf-row:nth-child(183)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(183)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(184)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(184)>.pf-lbl>.t::before{content:"项目另存为";font-size:13.5px}
+.pf-row:nth-child(184)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(184)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(185)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(185)>.pf-lbl>.t::before{content:"关闭项目";font-size:13.5px}
+.pf-row:nth-child(185)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(185)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(186)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(186)>.pf-lbl>.t::before{content:"数据库另存为";font-size:13.5px}
+.pf-row:nth-child(186)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(186)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(187)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(187)>.pf-lbl>.t::before{content:"结构树拖放：SELECT 语句";font-size:13.5px}
+.pf-row:nth-child(187)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(187)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(188)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(188)>.pf-lbl>.t::before{content:"结构树拖放：INSERT 语句";font-size:13.5px}
+.pf-row:nth-child(188)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(188)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(189)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(189)>.pf-lbl>.t::before{content:"结构树拖放：仅名称";font-size:13.5px}
+.pf-row:nth-child(189)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(189)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(190)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(190)>.pf-lbl>.t::before{content:"结构树拖放：限定名称";font-size:13.5px}
+.pf-row:nth-child(190)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(190)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+.pf-row:nth-child(191)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(191)>.pf-lbl>.t::before{content:"结构树拖放：带引号名称";font-size:13.5px}
+.pf-row:nth-child(191)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(191)>.pf-lbl>.h::before{content:"在 SQLite 块中";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(11){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"下移单元格";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"上移单元格";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"放大笔记本";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"重置笔记本缩放";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"保存笔记本";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"撤销单元格操作";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"选择下方单元格";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"选择上方单元格";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"向下滚动笔记本";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"复制单元格";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"转为原始格式";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"在下方插入单元格";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"在下方粘贴单元格";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"重做单元格操作";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"保存笔记本（命令模式）";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"剪切单元格";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"编辑单元格";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"运行单元格并选中下方";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"运行所选单元格";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"应用元数据";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"运行单元格并在下方插入";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"在上方插入单元格";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"在上方粘贴单元格";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"删除单元格（按两次）";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"转为代码";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"转为 Markdown";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"标题 1";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"标题 2";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"标题 3";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(30)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.t::before{content:"标题 4";font-size:13.5px}
+.pf-row:nth-child(30)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(31)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.t::before{content:"标题 5";font-size:13.5px}
+.pf-row:nth-child(31)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(32)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.t::before{content:"标题 6";font-size:13.5px}
+.pf-row:nth-child(32)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(33)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.t::before{content:"向上扩展选区";font-size:13.5px}
+.pf-row:nth-child(33)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(34)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.t::before{content:"向下扩展选区";font-size:13.5px}
+.pf-row:nth-child(34)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(35)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.t::before{content:"合并所选单元格";font-size:13.5px}
+.pf-row:nth-child(35)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(36)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.t::before{content:"拆分单元格";font-size:13.5px}
+.pf-row:nth-child(36)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(37)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.t::before{content:"中断内核（按两次）";font-size:13.5px}
+.pf-row:nth-child(37)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(38)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.t::before{content:"重启内核（按两次）";font-size:13.5px}
+.pf-row:nth-child(38)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(39)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.t::before{content:"行号";font-size:13.5px}
+.pf-row:nth-child(39)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(40)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.t::before{content:"所有单元格显示行号";font-size:13.5px}
+.pf-row:nth-child(40)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(41)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.t::before{content:"折叠输出";font-size:13.5px}
+.pf-row:nth-child(41)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(42)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.t::before{content:"滚动输出";font-size:13.5px}
+.pf-row:nth-child(42)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(43)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.t::before{content:"向上滚动笔记本";font-size:13.5px}
+.pf-row:nth-child(43)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(44)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.t::before{content:"选择所有单元格";font-size:13.5px}
+.pf-row:nth-child(44)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(45)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.t::before{content:"笔记本快捷键";font-size:13.5px}
+.pf-row:nth-child(45)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(46)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.t::before{content:"缩小笔记本";font-size:13.5px}
+.pf-row:nth-child(46)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(47)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.t::before{content:"在笔记本中查找与替换";font-size:13.5px}
+.pf-row:nth-child(47)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(48)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.t::before{content:"补全";font-size:13.5px}
+.pf-row:nth-child(48)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(49)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.t::before{content:"显示检查提示";font-size:13.5px}
+.pf-row:nth-child(49)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(50)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.t::before{content:"离开单元格编辑器";font-size:13.5px}
+.pf-row:nth-child(50)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(51)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.t::before{content:"运行所有单元格";font-size:13.5px}
+.pf-row:nth-child(51)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(52)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.t::before{content:"运行上方单元格";font-size:13.5px}
+.pf-row:nth-child(52)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(53)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.t::before{content:"运行所选及以下单元格";font-size:13.5px}
+.pf-row:nth-child(53)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(54)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.t::before{content:"复制单元格";font-size:13.5px}
+.pf-row:nth-child(54)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(55)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.t::before{content:"删除单元格";font-size:13.5px}
+.pf-row:nth-child(55)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(56)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.t::before{content:"与上方单元格合并";font-size:13.5px}
+.pf-row:nth-child(56)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(57)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.t::before{content:"与下方单元格合并";font-size:13.5px}
+.pf-row:nth-child(57)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(58)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.t::before{content:"折叠输入";font-size:13.5px}
+.pf-row:nth-child(58)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(59)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.t::before{content:"清除单元格输出";font-size:13.5px}
+.pf-row:nth-child(59)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(60)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.t::before{content:"清除所有输出";font-size:13.5px}
+.pf-row:nth-child(60)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(61)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.t::before{content:"中断内核";font-size:13.5px}
+.pf-row:nth-child(61)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(62)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.t::before{content:"重启内核";font-size:13.5px}
+.pf-row:nth-child(62)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(63)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.t::before{content:"重启内核并清除输出";font-size:13.5px}
+.pf-row:nth-child(63)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(64)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.t::before{content:"重启内核并运行全部";font-size:13.5px}
+.pf-row:nth-child(64)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(65)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.t::before{content:"关闭内核";font-size:13.5px}
+.pf-row:nth-child(65)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(66)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.t::before{content:"更换解释器";font-size:13.5px}
+.pf-row:nth-child(66)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(67)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.t::before{content:"笔记本另存为";font-size:13.5px}
+.pf-row:nth-child(67)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(68)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.t::before{content:"重命名笔记本";font-size:13.5px}
+.pf-row:nth-child(68)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(69)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.t::before{content:"将笔记本还原到检查点";font-size:13.5px}
+.pf-row:nth-child(69)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(70)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.t::before{content:"从磁盘重新加载笔记本";font-size:13.5px}
+.pf-row:nth-child(70)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(71)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.t::before{content:"将笔记本导出为 Python";font-size:13.5px}
+.pf-row:nth-child(71)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(72)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.t::before{content:"将笔记本导出为 Markdown";font-size:13.5px}
+.pf-row:nth-child(72)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(73)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.t::before{content:"将笔记本导出为 HTML";font-size:13.5px}
+.pf-row:nth-child(73)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(74)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.t::before{content:"目录";font-size:13.5px}
+.pf-row:nth-child(74)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(75)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.t::before{content:"单元格属性";font-size:13.5px}
+.pf-row:nth-child(75)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(76)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.t::before{content:"变量";font-size:13.5px}
+.pf-row:nth-child(76)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+.pf-row:nth-child(77)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.t::before{content:"上下文帮助";font-size:13.5px}
+.pf-row:nth-child(77)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.h::before{content:"在笔记本块中";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(12){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"卡片移到上一泳道";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"卡片移到下一泳道";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"撤销看板改动";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"重做看板改动";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"选择下方卡片";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"选择上方卡片";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"标记完成或开启";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"筛选卡片";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"下移卡片";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"上移卡片";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"切换看板/列表视图";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"删除卡片";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"编辑卡片标题";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"卡片详情";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"选择下一泳道的卡片";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"在下方新建卡片";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"在上方新建卡片";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"选择上一泳道的卡片";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"清除选区";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"选择第一张卡片";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"选择最后一张卡片";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"隐藏已完成卡片";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"新建泳道";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"重命名泳道";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"左移泳道";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"右移泳道";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"删除泳道";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"完成泳道";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"以 Markdown 打开";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"在看板块中";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(13){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"锁定";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"取消编组";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"编组";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"撤销";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"重做";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"激光笔";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"矩形";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"上移一层";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"下移一层";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"选择工具";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"橡皮擦";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"套索工具";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"箭头";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"垂直翻转";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"画笔工具";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"直线";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"椭圆";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"全选";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"抓手工具";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"缩小";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"创建副本";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"复制";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"剪切";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"水平翻转";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"备注";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"荧光笔";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"多边形";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"文字工具";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(29)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.t::before{content:"保持工具选中";font-size:13.5px}
+.pf-row:nth-child(29)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(29)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(30)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.t::before{content:"置于顶层";font-size:13.5px}
+.pf-row:nth-child(30)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(30)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(31)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.t::before{content:"置于底层";font-size:13.5px}
+.pf-row:nth-child(31)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(31)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(32)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.t::before{content:"左对齐";font-size:13.5px}
+.pf-row:nth-child(32)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(32)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(33)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.t::before{content:"中心对齐";font-size:13.5px}
+.pf-row:nth-child(33)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(33)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(34)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.t::before{content:"右对齐";font-size:13.5px}
+.pf-row:nth-child(34)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(34)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(35)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.t::before{content:"顶部对齐";font-size:13.5px}
+.pf-row:nth-child(35)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(35)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(36)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.t::before{content:"中线对齐";font-size:13.5px}
+.pf-row:nth-child(36)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(36)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(37)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.t::before{content:"底部对齐";font-size:13.5px}
+.pf-row:nth-child(37)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(37)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(38)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.t::before{content:"水平分布";font-size:13.5px}
+.pf-row:nth-child(38)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(38)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(39)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.t::before{content:"垂直分布";font-size:13.5px}
+.pf-row:nth-child(39)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(39)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(40)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.t::before{content:"顺时针旋转";font-size:13.5px}
+.pf-row:nth-child(40)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(40)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(41)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.t::before{content:"逆时针旋转";font-size:13.5px}
+.pf-row:nth-child(41)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(41)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(42)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.t::before{content:"放大";font-size:13.5px}
+.pf-row:nth-child(42)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(42)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(43)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.t::before{content:"缩放到适应";font-size:13.5px}
+.pf-row:nth-child(43)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(43)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(44)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.t::before{content:"缩放到选区";font-size:13.5px}
+.pf-row:nth-child(44)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(44)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(45)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.t::before{content:"缩放到 100%";font-size:13.5px}
+.pf-row:nth-child(45)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(45)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(46)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.t::before{content:"纯色填充";font-size:13.5px}
+.pf-row:nth-child(46)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(46)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(47)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.t::before{content:"图案填充";font-size:13.5px}
+.pf-row:nth-child(47)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(47)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(48)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.t::before{content:"粘贴";font-size:13.5px}
+.pf-row:nth-child(48)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(48)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(49)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.t::before{content:"原位粘贴";font-size:13.5px}
+.pf-row:nth-child(49)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(49)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(50)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.t::before{content:"复制为 PNG";font-size:13.5px}
+.pf-row:nth-child(50)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(50)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(51)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.t::before{content:"菱形";font-size:13.5px}
+.pf-row:nth-child(51)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(51)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(52)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.t::before{content:"三角形";font-size:13.5px}
+.pf-row:nth-child(52)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(52)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(53)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.t::before{content:"六边形";font-size:13.5px}
+.pf-row:nth-child(53)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(53)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(54)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.t::before{content:"平行四边形";font-size:13.5px}
+.pf-row:nth-child(54)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(54)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(55)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.t::before{content:"星标";font-size:13.5px}
+.pf-row:nth-child(55)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(55)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(56)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.t::before{content:"圆柱体";font-size:13.5px}
+.pf-row:nth-child(56)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(56)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(57)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.t::before{content:"胶囊";font-size:13.5px}
+.pf-row:nth-child(57)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(57)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(58)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.t::before{content:"方括号";font-size:13.5px}
+.pf-row:nth-child(58)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(58)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(59)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.t::before{content:"花括号";font-size:13.5px}
+.pf-row:nth-child(59)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(59)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(60)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.t::before{content:"曲线";font-size:13.5px}
+.pf-row:nth-child(60)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(60)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(61)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.t::before{content:"删除";font-size:13.5px}
+.pf-row:nth-child(61)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(61)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(62)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.t::before{content:"取消选择";font-size:13.5px}
+.pf-row:nth-child(62)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(62)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(63)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.t::before{content:"全部解锁";font-size:13.5px}
+.pf-row:nth-child(63)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(63)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(64)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.t::before{content:"复制样式";font-size:13.5px}
+.pf-row:nth-child(64)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(64)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(65)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.t::before{content:"粘贴样式";font-size:13.5px}
+.pf-row:nth-child(65)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(65)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(66)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.t::before{content:"水平拉伸";font-size:13.5px}
+.pf-row:nth-child(66)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(66)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(67)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.t::before{content:"垂直拉伸";font-size:13.5px}
+.pf-row:nth-child(67)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(67)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(68)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.t::before{content:"水平堆叠";font-size:13.5px}
+.pf-row:nth-child(68)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(68)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(69)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.t::before{content:"垂直堆叠";font-size:13.5px}
+.pf-row:nth-child(69)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(69)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(70)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.t::before{content:"打包";font-size:13.5px}
+.pf-row:nth-child(70)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(70)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(71)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.t::before{content:"编辑文本";font-size:13.5px}
+.pf-row:nth-child(71)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(71)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(72)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.t::before{content:"裁剪";font-size:13.5px}
+.pf-row:nth-child(72)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(72)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(73)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.t::before{content:"重置裁剪";font-size:13.5px}
+.pf-row:nth-child(73)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(73)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(74)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.t::before{content:"插入图片";font-size:13.5px}
+.pf-row:nth-child(74)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(74)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(75)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.t::before{content:"简洁外观";font-size:13.5px}
+.pf-row:nth-child(75)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(75)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(76)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.t::before{content:"等宽外观";font-size:13.5px}
+.pf-row:nth-child(76)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(76)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(77)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.t::before{content:"手绘外观";font-size:13.5px}
+.pf-row:nth-child(77)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(77)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(78)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(78)>.pf-lbl>.t::before{content:"点状纸";font-size:13.5px}
+.pf-row:nth-child(78)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(78)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(79)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(79)>.pf-lbl>.t::before{content:"方格纸";font-size:13.5px}
+.pf-row:nth-child(79)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(79)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(80)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(80)>.pf-lbl>.t::before{content:"横线纸";font-size:13.5px}
+.pf-row:nth-child(80)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(80)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(81)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(81)>.pf-lbl>.t::before{content:"空白纸";font-size:13.5px}
+.pf-row:nth-child(81)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(81)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(82)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(82)>.pf-lbl>.t::before{content:"无填充";font-size:13.5px}
+.pf-row:nth-child(82)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(82)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+.pf-row:nth-child(83)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(83)>.pf-lbl>.t::before{content:"半透明填充";font-size:13.5px}
+.pf-row:nth-child(83)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(83)>.pf-lbl>.h::before{content:"在画布块中";font-size:12px;display:block}
+}
+>.pf-sec:nth-of-type(14){
+.pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.t::before{content:"后退";font-size:13.5px}
+.pf-row:nth-child(1)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(1)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(2)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.t::before{content:"前进";font-size:13.5px}
+.pf-row:nth-child(2)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(2)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(3)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.t::before{content:"查找";font-size:13.5px}
+.pf-row:nth-child(3)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(3)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(4)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.t::before{content:"新建分支";font-size:13.5px}
+.pf-row:nth-child(4)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(4)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(5)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.t::before{content:"撤销";font-size:13.5px}
+.pf-row:nth-child(5)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(5)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(6)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.t::before{content:"重做";font-size:13.5px}
+.pf-row:nth-child(6)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(6)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(7)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.t::before{content:"下一个提交";font-size:13.5px}
+.pf-row:nth-child(7)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(7)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(8)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.t::before{content:"下一行";font-size:13.5px}
+.pf-row:nth-child(8)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(8)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(9)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.t::before{content:"上一个提交";font-size:13.5px}
+.pf-row:nth-child(9)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(9)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(10)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.t::before{content:"上一行";font-size:13.5px}
+.pf-row:nth-child(10)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(10)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(11)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.t::before{content:"速览";font-size:13.5px}
+.pf-row:nth-child(11)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(11)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(12)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.t::before{content:"切换自动换行";font-size:13.5px}
+.pf-row:nth-child(12)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(12)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(13)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.t::before{content:"选择工作树";font-size:13.5px}
+.pf-row:nth-child(13)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(13)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(14)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.t::before{content:"提交信息";font-size:13.5px}
+.pf-row:nth-child(14)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(14)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(15)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.t::before{content:"刷新";font-size:13.5px}
+.pf-row:nth-child(15)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(15)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(16)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.t::before{content:"筛选引用";font-size:13.5px}
+.pf-row:nth-child(16)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(16)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(17)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.t::before{content:"下一个差异块";font-size:13.5px}
+.pf-row:nth-child(17)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(17)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(18)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.t::before{content:"上一个差异块";font-size:13.5px}
+.pf-row:nth-child(18)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(18)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(19)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.t::before{content:"下一个文件";font-size:13.5px}
+.pf-row:nth-child(19)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(19)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(20)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.t::before{content:"上一个文件";font-size:13.5px}
+.pf-row:nth-child(20)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(20)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(21)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.t::before{content:"切换空白显示";font-size:13.5px}
+.pf-row:nth-child(21)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(21)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(22)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.t::before{content:"切换差异块视图";font-size:13.5px}
+.pf-row:nth-child(22)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(22)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(23)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.t::before{content:"展开上下文";font-size:13.5px}
+.pf-row:nth-child(23)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(23)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(24)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.t::before{content:"切换全部上下文";font-size:13.5px}
+.pf-row:nth-child(24)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(24)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(25)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.t::before{content:"编辑文件";font-size:13.5px}
+.pf-row:nth-child(25)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(25)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(26)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.t::before{content:"暂存";font-size:13.5px}
+.pf-row:nth-child(26)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(26)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(27)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.t::before{content:"放弃行";font-size:13.5px}
+.pf-row:nth-child(27)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(27)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+.pf-row:nth-child(28)>.pf-lbl>.t{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.t::before{content:"放弃文件";font-size:13.5px}
+.pf-row:nth-child(28)>.pf-lbl>.h{font-size:0}
+.pf-row:nth-child(28)>.pf-lbl>.h::before{content:"在 Git 块及文件面板的变更/引用页签中";font-size:12px;display:block}
+}
+}
