@@ -1,4 +1,4 @@
-.pf-doc:has(>.pf-sec:nth-last-of-type(14)):not(:has(>.pf-sec:nth-last-of-type(15))):has(>.pf-sec:nth-of-type(1)>.pf-rows>*:nth-child(2)){
+.pf-doc:has(>.pf-sec:nth-last-of-type(14)):not(:has(>.pf-sec:nth-last-of-type(15))):has(>.pf-sec:nth-of-type(1)>.pf-rows>*:nth-child(1).pf-key){
 >.pf-sec:nth-of-type(1){
 .pf-row:nth-child(1)>.pf-lbl>.t{font-size:0}
 .pf-row:nth-child(1)>.pf-lbl>.t::before{content:"显示/隐藏 Tern";font-size:13.5px}
