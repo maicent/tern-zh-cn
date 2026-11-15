@@ -31,6 +31,12 @@ tern plugin install github.com/maicent/tern-zh-cn/keys
 
 或者在 Preferences › Plugins 里填 `github.com/maicent/tern-zh-cn/keys`。装完 `tern plugin list` 应该看到 `zh-cn` 和 `zh-cn-keys` 两条。
 
+如果第二条显示 `disabled`，reload 一次即可：
+
+```sh
+tern plugin reload zh-cn-keys
+```
+
 ## 不能翻译的部分（原理限制）
 
 - **内置命令的英文原行**无法改名或隐藏（palette 行没有可选择的属性，且搜索时列表会重排）。但中文行排在同一列表里，搜中文即可。
