@@ -5,8 +5,9 @@
  */
 
 /* ── 命令面板作用域页签 ──
- * DOM 顺序（0.8.3 实测）：1 All, 2 Commands, 3 Files, 4-5 上下文隐藏,
- * 6 Sessions, 7 Hosts。nth-of-type 按 button 同标签计数，含隐藏项。
+ * DOM 顺序（0.9.21 实测）：1 All, 2 Commands, 3 Files, 4 Search,
+ * 5 Branches, 6 Commits, 7 Sessions, 8 Hosts。nth-of-type 按 button 同标签计数，
+ * 含隐藏项（.off 的 Branches / Commits 只在该仓库有内容时出现）。
  * white-space: nowrap 防止两个汉字被折行。 */
 .tn-pl-scopes .tn-pl-scope:nth-of-type(1) { font-size: 0; }
 .tn-pl-scopes .tn-pl-scope:nth-of-type(1)::before { content: "全部"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
@@ -14,13 +15,36 @@
 .tn-pl-scopes .tn-pl-scope:nth-of-type(2)::before { content: "命令"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
 .tn-pl-scopes .tn-pl-scope:nth-of-type(3) { font-size: 0; }
 .tn-pl-scopes .tn-pl-scope:nth-of-type(3)::before { content: "文件"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
-.tn-pl-scopes .tn-pl-scope:nth-of-type(6) { font-size: 0; }
-.tn-pl-scopes .tn-pl-scope:nth-of-type(6)::before { content: "会话"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
+.tn-pl-scopes .tn-pl-scope:nth-of-type(4) { font-size: 0; }
+.tn-pl-scopes .tn-pl-scope:nth-of-type(4)::before { content: "搜索"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
 .tn-pl-scopes .tn-pl-scope:nth-of-type(7) { font-size: 0; }
-.tn-pl-scopes .tn-pl-scope:nth-of-type(7)::before { content: "主机"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
+.tn-pl-scopes .tn-pl-scope:nth-of-type(7)::before { content: "会话"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
+.tn-pl-scopes .tn-pl-scope:nth-of-type(8) { font-size: 0; }
+.tn-pl-scopes .tn-pl-scope:nth-of-type(8)::before { content: "主机"; font-size: 12px; display: inline-block; width: 26px; text-align: center; }
 
 /* ── 标签栏按钮文字（宽松布局/大尺寸窗口下显示标签时生效） ── */
 button.tb-add > span.lbl { font-size: 0; }
 button.tb-add > span.lbl::before { content: "新建标签页"; font-size: 13px; display: inline-block; width: 66px; }
 button.tb-files > span.lbl { font-size: 0; }
 button.tb-files > span.lbl::before { content: "文件"; font-size: 13px; display: inline-block; width: 28px; }
+
+/* ── 设置面板（0.9.21）──
+ * 左侧导航：每个 .nav-group 里 .pf-items 装按钮；组与组之间用 .nav-group:nth-of-type 区分，
+ * 组内按钮用 button:nth-of-type。App 组 11 页，System 组 3 页。 */
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(1) > .pf-txt > .lbl::before { content: "常规"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(2) > .pf-txt > .lbl::before { content: "智能体"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(3) > .pf-txt > .lbl::before { content: "外观"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(4) > .pf-txt > .lbl::before { content: "终端"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(5) > .pf-txt > .lbl::before { content: "镜头"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(6) > .pf-txt > .lbl::before { content: "数据库"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(7) > .pf-txt > .lbl::before { content: "笔记本"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(8) > .pf-txt > .lbl::before { content: "Carly"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(9) > .pf-txt > .lbl::before { content: "键盘"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(10) > .pf-txt > .lbl::before { content: "Git"; }
+.nav-group:nth-of-type(1) .nav-row:nth-of-type(11) > .pf-txt > .lbl::before { content: "插件"; }
+.nav-group:nth-of-type(2) .nav-row:nth-of-type(1) > .pf-txt > .lbl::before { content: "会话"; }
+.nav-group:nth-of-type(2) .nav-row:nth-of-type(2) > .pf-txt > .lbl::before { content: "主机"; }
+.nav-group:nth-of-type(2) .nav-row:nth-of-type(3) > .pf-txt > .lbl::before { content: "高级"; }
+
+.nav-group .nav-row > .pf-txt > .lbl { font-size: 0; }
+.nav-group .nav-row > .pf-txt > .lbl::before { font-size: 13px; }
